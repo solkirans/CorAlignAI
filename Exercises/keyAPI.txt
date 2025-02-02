@@ -1,0 +1,5 @@
+api_url=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
+api_key=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
+model=o3-mini
+max_tokens=1500
+temperature=0.2

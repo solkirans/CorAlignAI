@@ -1,5 +1,4 @@
-api_url=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
+api_url=https://openrouter.ai/api/v1
 api_key=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
-model=o3-mini
-max_tokens=1500
+model=deepseek/deepseek-r1
 temperature=0.2

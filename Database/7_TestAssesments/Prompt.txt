@@ -1,15 +1,37 @@
+Goal: generating sytnthetic but realistic data
+
 Think how a person with posture problem would answer questions below.
 
-Generate 30 person's response. Simulate their feeling and answer the questions like you have posture problems. Consider human to human variances.
+Use biomechanical bilateral equations, or clinic information or scientific data to fill the matrix. If you can't find solid information, use approximated or predicted values but try to make those approximations or predictions super accurate. This is not a hypothetical data. 
 
-10 person must have only kyphosis.
+Try to think in broader terms and indicate bigger impact, secondary and third order affected areas also.
 
-10 person must have 2 problems combined. ( Pick the combinations freely )
+Simulate their feeling and answer the questions like you have posture problems. Consider human to human variances.
 
-10 person must have 3 problems combined. ( Pick the combinations freely )
+10 person must have only Kyphosis.
+
+10 person must have 2 problems combined, one of them is Kyphosis. ( Pick the combinations freely,create as different as possible comibnations )
+
+10 person must have 3 problems combined, one of them is Kyphosis. ( Pick the combinations freely, create as different as possible comibnations )
+
+50% of the users must have mild problems, 30% must have moderate problems, and 20% must have severe problems.
+
+Make half of the users have asymmetric problems. They might have a problem or pain only on one side in some areas.
+
+Create a row for user notes. In that row, indicate how did you design each user, which problems they have, which part is asymmetric etc.
 
 Output your reponse as CSV file. Include Question ID's and also answer ID (number).
 
+CSV file must include;
+
+User posture problem ( first row. )
+User ID ( second row, number )
+Question ID (First column , text)
+AnswerID ( Second Column, number )
+
+Every column represents another user, every row represents another answer
+
+Do not print comment, example table or conceptual table. Print all and real data to the CSV table.
 
 Posture Problems:
 -Kyphosis

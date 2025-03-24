@@ -1,0 +1,35 @@
+muscle_id,muscle_name,l_knee_alignment,r_knee_alignment,l_knee_rotation,r_knee_rotation,l_patella_tracking,r_patella_tracking,l_knee_hyperext,r_knee_hyperext,l_q_angle,r_q_angle
+148,Rectus Femoris (Left),0,0,0,0,0,0,5,0,0,0
+149,Rectus Femoris (Right),0,0,0,0,0,0,0,5,0,0
+150,Tensor Fasciae Latae (Left),-4,0,0,0,0,0,0,0,-3,0
+151,Tensor Fasciae Latae (Right),0,-4,0,0,0,0,0,0,0,-3
+152,Gluteus Maximus (Left),-2,0,0,0,0,0,-3,0,-2,0
+153,Gluteus Maximus (Right),0,-2,0,0,0,0,0,-3,0,-2
+154,Biceps Femoris (Left),-3,0,-4,0,0,0,-3,0,0,0
+155,Biceps Femoris (Right),0,-3,0,-4,0,0,0,-3,0,0
+156,Semitendinosus (Left),3,0,4,0,0,0,-3,0,0,0
+157,Semitendinosus (Right),0,3,0,4,0,0,0,-3,0,0
+158,Semimembranosus (Left),3,0,4,0,0,0,-3,0,0,0
+159,Semimembranosus (Right),0,3,0,4,0,0,0,-3,0,0
+160,Gluteus Medius (Left),-4,0,0,0,0,0,0,0,-3,0
+161,Gluteus Medius (Right),0,-4,0,0,0,0,0,0,0,-3
+164,Adductor Longus (Left),4,0,0,0,0,0,0,0,3,0
+165,Adductor Longus (Right),0,4,0,0,0,0,0,0,0,3
+168,Adductor Magnus (Left),4,0,0,0,0,0,0,0,3,0
+169,Adductor Magnus (Right),0,4,0,0,0,0,0,0,0,3
+172,Gracilis (Left),3,0,0,0,0,0,0,0,2,0
+173,Gracilis (Right),0,3,0,0,0,0,0,0,0,2
+184,Iliotibial Band (Left),-4,0,0,0,0,0,0,0,-3,0
+185,Iliotibial Band (Right),0,-4,0,0,0,0,0,0,0,-3
+189,Vastus Lateralis (Left),-3,0,0,0,-5,0,4,0,0,0
+190,Vastus Lateralis (Right),0,-3,0,0,0,-5,0,4,0,0
+191,Vastus Medialis (VMO) (Left),3,0,0,0,5,0,0,0,0,0
+192,Vastus Medialis (VMO) (Right),0,3,0,0,0,5,0,0,0,0
+193,Vastus Intermedius (Left),0,0,0,0,0,0,3,0,0,0
+194,Vastus Intermedius (Right),0,0,0,0,0,0,0,3,0,0
+195,Sartorius (Left),2,0,3,0,0,0,0,0,0,0
+196,Sartorius (Right),0,2,0,3,0,0,0,0,0,0
+197,Popliteus (Left),0,0,-3,0,0,0,0,0,0,0
+198,Popliteus (Right),0,0,0,-3,0,0,0,0,0,0
+203,Gastrocnemius (Left),0,0,0,0,0,0,-4,0,0,0
+204,Gastrocnemius (Right),0,0,0,0,0,0,0,-4,0,0

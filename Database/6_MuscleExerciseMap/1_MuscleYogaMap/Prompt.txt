@@ -1,0 +1,297 @@
+Create a mapping matrix between below exercises and muscles. This matrix must represent which exercises trains or stretches which muscles.
+
+If a certain muscle is stretched, then it must have a positive score, if it is trained, then it must have a negative score. Each muscle can have a score between -10 and 10.
+
+Use biomechanical bilateral equations, or clinic information or scientific data to fill the matrix. If you can't find solid information, use approximated or predicted values but try to make those approximations or predictions super accurate. This is not a hypothetical data. 
+
+Verify your own data by checking the symmetry of values. For example, exrcises for left and right must have symmetric values over same right and left muscles
+
+Try to think in broader terms and indicate bigger impact, secondary and third order affected muscles also.
+
+Do not print comments or summary. Only print the CSV file.
+
+Every row represents another muscle and every column represents another exercises in this CSV file. Each Cell represents the relation bw corresponding muscle and exercise.
+
+Include exercise ID ( first row ) exercise name ( second row ), muscle ID ( first column) muscle name (second column) and in to CSV also. 
+
+Create CSV table. Do not create example table, create real table with real and scientific resources.
+
+
+Yoga Moves
+81	Vasisthasana	Right	Intermediate	Begin in a forearm plank position. Shift your weight onto your right forearm and the outer edge of your right foot. Extend your left leg fully, keeping it either stacked on top of your right or slightly lifted. Optionally, raise your left arm for an added challenge.
+82	Vasisthasana	Left	Intermediate	Assume a side plank position on your left forearm. Shift your weight onto your left forearm and the outer edge of your left foot. Extend your right leg fully, either stacking it over your left or keeping it slightly raised. Optionally, raise your right arm to intensify the pose.
+83	Utthita Hasta Padangusthasana	Right	Advanced	Stand in Tadasana and shift your weight onto your right leg. Lift your right leg and, using a yoga strap if necessary, grasp your right big toe with your right hand while extending the leg forward. Let your left hand rest on your hip for balance.
+84	Utthita Hasta Padangusthasana	Left	Advanced	From Tadasana, shift your weight onto your left leg. Lift your left leg and, using a yoga strap if needed, grasp your left big toe with your left hand while extending the leg forward. Allow your right hand to rest on your hip.
+85	Natarajasana	Right	Advanced	Stand in Tadasana and shift your weight onto your right leg. Bend your right knee and, with your right hand, reach back to grasp your right ankle. Simultaneously, extend your left arm forward for balance as you gently arch your torso to open your chest.
+86	Natarajasana	Left	Advanced	Stand in Tadasana and shift your weight onto your left leg. Bend your left knee and reach your left hand back to grasp your left ankle while extending your right arm forward for balance.
+87	Vrksasana	Right	Moderate	Stand in Tadasana and shift your weight onto your right leg. Place your right foot on your inner right calf or thigh (avoiding the knee). Bring your hands into prayer at your chest and focus your gaze on a fixed point.
+88	Vrksasana	Left	Moderate	Stand in Tadasana and shift your weight onto your left leg. Place your left foot on your inner left calf or thigh (avoiding the knee). Bring your hands together in prayer at your chest and fix your gaze forward.
+89	Parsva Bakasana	Right	Expert	Start in a squat with your feet wide apart. Place your hands on the mat, then shift your weight onto your right hand while twisting your torso to the right. Simultaneously, lift your legs off the ground to maintain the twist, balancing on your right arm.
+90	Parsva Bakasana	Left	Expert	Begin in a squat with your feet wide apart. Place your hands on the mat, then shift your weight onto your left hand while twisting your torso to the left. Lift your legs off the ground as you maintain the twist, balancing on your left arm.
+91	Visvamitrasana	Right	Expert	Stand in Tadasana. Shift your weight onto your right leg and pivot your right foot slightly outward. Inhale and as you exhale, twist your torso to the right, bringing your left hand to rest on your right thigh (or near the right knee) while extending your right arm either overhead or behind you.
+92	Visvamitrasana	Left	Expert	Stand in Tadasana. Shift your weight onto your left leg and pivot your left foot slightly outward. Inhale and as you exhale, twist your torso to the left, bringing your right hand to rest on your left thigh (or near the left knee) while extending your left arm either overhead or behind you.
+93	Parivrtta Surya Yantrasana	Right	Expert	Assume a stable stance or kneeling position. With the right leg as the pivot, twist your torso to the right. Extend your left leg while simultaneously reaching your right arm upward and bringing your left arm behind your right leg.
+94	Parivrtta Surya Yantrasana	Left	Expert	From a stable or kneeling position, use the left leg as the pivot. Twist your torso to the left by extending your right leg and bringing your left arm upward while reaching your right arm behind the left leg.
+95	Mandalasana	Right	Moderate	Sit on the floor with your legs crossed. For the right variation, lean slightly to the right while twisting your torso so that the right shoulder moves forward and the left shoulder recedes. Your hands may rest on your knees or in your lap to deepen the twist.
+96	Mandalasana	Left	Moderate	Sit comfortably with your legs crossed. For the left variation, lean slightly to the left so that the left shoulder moves forward and the right shoulder recedes. Allow your hands to rest on your knees or in your lap to facilitate the twist.
+97	Purna Matsyendrasana	Right	Advanced	Sit on the floor with legs extended. Bend your right knee and place the right foot on the outside of the left thigh while keeping the left leg extended. Inhale to lengthen the spine, then exhale and twist to the right, placing your left elbow on the outside of your right knee and your right hand behind you.
+98	Purna Matsyendrasana	Left	Advanced	Sit with your legs extended. Bend your left knee and place the left foot on the outside of the right thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and twist to the left, placing your right elbow on the outside of your left knee while your left hand rests behind you.
+99	Akarna Dhanurasana	Right	Advanced	Lie on your stomach. Bend your right knee and reach back with your right hand to grasp your right foot, drawing it toward your right buttock. Optionally, lift your chest slightly to deepen the stretch on the right side.
+100	Akarna Dhanurasana	Left	Advanced	Lie on your stomach. Bend your left knee and reach back with your left hand to grasp your left foot, drawing it toward your left buttock. Optionally, lift your chest gently to enhance the stretch on the left side.
+
+
+
+
+
+
+
+Muscle List:
+ItemNumber,Type,PrimaryRegion,Side,Name,OtherRegions,SymmetricItemNumber
+1,MUSCLE,1,Left,Masseter,[],2
+2,MUSCLE,1,Right,Masseter,[],1
+3,MUSCLE,1,Left,Temporalis,[],4
+4,MUSCLE,1,Right,Temporalis,[],3
+5,MUSCLE,1,Left,Medial Pterygoid,[],6
+6,MUSCLE,1,Right,Medial Pterygoid,[],5
+7,MUSCLE,1,Left,Lateral Pterygoid,[],8
+8,MUSCLE,1,Right,Lateral Pterygoid,[],7
+9,MUSCLE,1,Left,Digastric,[2],10
+10,MUSCLE,1,Right,Digastric,[2],9
+11,MUSCLE,1,Left,Mylohyoid,[2],12
+12,MUSCLE,1,Right,Mylohyoid,[2],11
+13,MUSCLE,1,Left,Stylohyoid,[2],14
+14,MUSCLE,1,Right,Stylohyoid,[2],13
+15,MUSCLE,1,Left,Sternohyoid,[2],16
+16,MUSCLE,1,Right,Sternohyoid,[2],15
+17,MUSCLE,1,Left,Sternothyroid,[2],18
+18,MUSCLE,1,Right,Sternothyroid,[2],17
+19,MUSCLE,1,Left,Omohyoid,[2],20
+20,MUSCLE,1,Right,Omohyoid,[2],19
+21,MUSCLE,1,Left,Thyrohyoid,[2],22
+22,MUSCLE,1,Right,Thyrohyoid,[2],21
+23,FASCIA,1,Left,Temporalis Fascia,[],24
+24,FASCIA,1,Right,Temporalis Fascia,[],23
+25,FASCIA,1,Left,Superficial Fascia of Face/Scalp,[],26
+26,FASCIA,1,Right,Superficial Fascia of Face/Scalp,[],25
+27,MUSCLE,2,Left,Longus Capitis,[],28
+28,MUSCLE,2,Right,Longus Capitis,[],27
+29,MUSCLE,2,Left,Longus Colli,[],30
+30,MUSCLE,2,Right,Longus Colli,[],29
+31,MUSCLE,2,Left,Rectus Capitis Anterior,[],32
+32,MUSCLE,2,Right,Rectus Capitis Anterior,[],31
+33,MUSCLE,2,Left,Sternocleidomastoid,[1,4],34
+34,MUSCLE,2,Right,Sternocleidomastoid,[1,4],33
+35,MUSCLE,2,Left,Scalenes (Anterior),[4],36
+36,MUSCLE,2,Right,Scalenes (Anterior),[4],35
+37,MUSCLE,2,Left,Scalenes (Middle),[4],38
+38,MUSCLE,2,Right,Scalenes (Middle),[4],37
+39,MUSCLE,2,Left,Scalenes (Posterior),[4],40
+40,MUSCLE,2,Right,Scalenes (Posterior),[4],39
+41,MUSCLE,2,Left,Rectus Capitis Posterior Major,[1],42
+42,MUSCLE,2,Right,Rectus Capitis Posterior Major,[1],41
+43,MUSCLE,2,Left,Rectus Capitis Posterior Minor,[1],44
+44,MUSCLE,2,Right,Rectus Capitis Posterior Minor,[1],43
+45,MUSCLE,2,Left,Obliquus Capitis Superior,[1],46
+46,MUSCLE,2,Right,Obliquus Capitis Superior,[1],45
+47,MUSCLE,2,Left,Obliquus Capitis Inferior,[],48
+48,MUSCLE,2,Right,Obliquus Capitis Inferior,[],47
+49,MUSCLE,2,Left,Splenius Capitis,[],50
+50,MUSCLE,2,Right,Splenius Capitis,[],49
+51,MUSCLE,2,Left,Splenius Cervicis,[],52
+52,MUSCLE,2,Right,Splenius Cervicis,[],51
+53,MUSCLE,2,Left,Levator Scapulae,[3],54
+54,MUSCLE,2,Right,Levator Scapulae,[3],53
+55,MUSCLE,2,Left,Upper Trapezius,[1,3],56
+56,MUSCLE,2,Right,Upper Trapezius,[1,3],55
+57,FASCIA,2,Center,Nuchal Ligament,[],''
+58,FASCIA,2,Left,Prevertebral Fascia,[],59
+59,FASCIA,2,Right,Prevertebral Fascia,[],58
+60,FASCIA,2,Left,Suboccipital Fascia,[],61
+61,FASCIA,2,Right,Suboccipital Fascia,[],60
+62,MUSCLE,3,Left,Middle Trapezius,[4],63
+63,MUSCLE,3,Right,Middle Trapezius,[4],62
+64,MUSCLE,3,Left,Lower Trapezius,[4],65
+65,MUSCLE,3,Right,Lower Trapezius,[4],64
+66,MUSCLE,3,Left,Rhomboid Major,[4],67
+67,MUSCLE,3,Right,Rhomboid Major,[4],66
+68,MUSCLE,3,Left,Rhomboid Minor,[2,4],69
+69,MUSCLE,3,Right,Rhomboid Minor,[2,4],68
+70,MUSCLE,3,Left,Serratus Anterior,[4],71
+71,MUSCLE,3,Right,Serratus Anterior,[4],70
+72,MUSCLE,3,Left,Supraspinatus,[],73
+73,MUSCLE,3,Right,Supraspinatus,[],72
+74,MUSCLE,3,Left,Infraspinatus,[],75
+75,MUSCLE,3,Right,Infraspinatus,[],74
+76,MUSCLE,3,Left,Teres Minor,[],77
+77,MUSCLE,3,Right,Teres Minor,[],76
+78,MUSCLE,3,Left,Subscapularis,[],79
+79,MUSCLE,3,Right,Subscapularis,[],78
+80,MUSCLE,3,Left,Pectoralis Minor,[4],81
+81,MUSCLE,3,Right,Pectoralis Minor,[4],80
+82,MUSCLE,3,Left,Pectoralis Major,[4,5],83
+83,MUSCLE,3,Right,Pectoralis Major,[4,5],82
+84,MUSCLE,3,Left,Latissimus Dorsi,[4,5,7],85
+85,MUSCLE,3,Right,Latissimus Dorsi,[4,5,7],84
+86,FASCIA,3,Left,Brachial Fascia,[],87
+87,FASCIA,3,Right,Brachial Fascia,[],86
+88,FASCIA,3,Left,Axillary Fascia,[],89
+89,FASCIA,3,Right,Axillary Fascia,[],88
+90,MUSCLE,4,Left,Iliocostalis Thoracis,[5],91
+91,MUSCLE,4,Right,Iliocostalis Thoracis,[5],90
+92,MUSCLE,4,Left,Longissimus Thoracis,[5],93
+93,MUSCLE,4,Right,Longissimus Thoracis,[5],92
+94,MUSCLE,4,Left,Spinalis Thoracis,[5],95
+95,MUSCLE,4,Right,Spinalis Thoracis,[5],94
+96,MUSCLE,4,Left,Multifidus (Thoracic),[5],97
+97,MUSCLE,4,Right,Multifidus (Thoracic),[5],96
+98,MUSCLE,4,Left,Serratus Posterior Superior,[2],99
+99,MUSCLE,4,Right,Serratus Posterior Superior,[2],98
+100,MUSCLE,4,Left,Serratus Posterior Inferior,[5],101
+101,MUSCLE,4,Right,Serratus Posterior Inferior,[5],100
+102,MUSCLE,4,Left,Intercostal Muscles,[],103
+103,MUSCLE,4,Right,Intercostal Muscles,[],102
+104,FASCIA,4,Left,Thoracolumbar Fascia (Upper Portion),[5],105
+105,FASCIA,4,Right,Thoracolumbar Fascia (Upper Portion),[5],104
+106,FASCIA,4,Left,Costal Pleura & Intercostal Fascia,[],107
+107,FASCIA,4,Right,Costal Pleura & Intercostal Fascia,[],106
+108,MUSCLE,5,Left,Rectus Abdominis,[4,7],109
+109,MUSCLE,5,Right,Rectus Abdominis,[4,7],108
+110,MUSCLE,5,Left,External Oblique,[4,5,7],111
+111,MUSCLE,5,Right,External Oblique,[4,5,7],110
+112,MUSCLE,5,Left,Internal Oblique,[4,5,7],113
+113,MUSCLE,5,Right,Internal Oblique,[4,5,7],112
+114,MUSCLE,5,Left,Transversus Abdominis,[4,5,7],115
+115,MUSCLE,5,Right,Transversus Abdominis,[4,5,7],114
+116,MUSCLE,5,Left,Diaphragm,[4,5],117
+117,MUSCLE,5,Right,Diaphragm,[4,5],116
+118,MUSCLE,5,Left,Pelvic Floor (Levator Ani Group),[7],119
+119,MUSCLE,5,Right,Pelvic Floor (Levator Ani Group),[7],118
+120,MUSCLE,5,Left,Coccygeus,[7],121
+121,MUSCLE,5,Right,Coccygeus,[7],120
+122,FASCIA,5,Center,Linea Alba,[],''
+123,FASCIA,5,Left,Rectus Sheath,[],124
+124,FASCIA,5,Right,Rectus Sheath,[],123
+125,FASCIA,5,Left,Transversalis Fascia,[],126
+126,FASCIA,5,Right,Transversalis Fascia,[],125
+127,FASCIA,5,Center,Central Tendon of Diaphragm,[],''
+128,MUSCLE,5,Left,Iliocostalis Lumborum,[4],129
+129,MUSCLE,5,Right,Iliocostalis Lumborum,[4],128
+130,MUSCLE,5,Left,Longissimus Lumborum,[4],131
+131,MUSCLE,5,Right,Longissimus Lumborum,[4],130
+132,MUSCLE,5,Left,Multifidus (Lumbar),[4],133
+133,MUSCLE,5,Right,Multifidus (Lumbar),[4],132
+134,MUSCLE,5,Left,Quadratus Lumborum,[4,7,5],135
+135,MUSCLE,5,Right,Quadratus Lumborum,[4,7,5],134
+136,MUSCLE,5,Left,Psoas Major,[4,5,7],137
+137,MUSCLE,5,Right,Psoas Major,[4,5,7],136
+138,MUSCLE,5,Left,Psoas Minor,[4,5,7],139
+139,MUSCLE,5,Right,Psoas Minor,[4,5,7],138
+140,FASCIA,5,Left,Thoracolumbar Fascia,[4,5],141
+141,FASCIA,5,Right,Thoracolumbar Fascia,[4,5],140
+142,FASCIA,5,Left,Lumbar Fascia,[],143
+143,FASCIA,5,Right,Lumbar Fascia,[],142
+144,FASCIA,5,Left,Iliolumbar Ligaments,[7],145
+145,FASCIA,5,Right,Iliolumbar Ligaments,[7],144
+146,MUSCLE,7,Left,Iliacus,[5],147
+147,MUSCLE,7,Right,Iliacus,[5],146
+148,MUSCLE,7,Left,Rectus Femoris,[8],149
+149,MUSCLE,7,Right,Rectus Femoris,[8],148
+150,MUSCLE,7,Left,Tensor Fasciae Latae,[],151
+151,MUSCLE,7,Right,Tensor Fasciae Latae,[],150
+152,MUSCLE,7,Left,Gluteus Maximus,[],153
+153,MUSCLE,7,Right,Gluteus Maximus,[],152
+154,MUSCLE,7,Left,Biceps Femoris,[8],155
+155,MUSCLE,7,Right,Biceps Femoris,[8],154
+156,MUSCLE,7,Left,Semitendinosus,[8],157
+157,MUSCLE,7,Right,Semitendinosus,[8],156
+158,MUSCLE,7,Left,Semimembranosus,[8],159
+159,MUSCLE,7,Right,Semimembranosus,[8],158
+160,MUSCLE,7,Left,Gluteus Medius,[],161
+161,MUSCLE,7,Right,Gluteus Medius,[],160
+162,MUSCLE,7,Left,Gluteus Minimus,[],163
+163,MUSCLE,7,Right,Gluteus Minimus,[],162
+164,MUSCLE,7,Left,Adductor Longus,[],165
+165,MUSCLE,7,Right,Adductor Longus,[],164
+166,MUSCLE,7,Left,Adductor Brevis,[],167
+167,MUSCLE,7,Right,Adductor Brevis,[],166
+168,MUSCLE,7,Left,Adductor Magnus,[],169
+169,MUSCLE,7,Right,Adductor Magnus,[],168
+170,MUSCLE,7,Left,Pectineus,[],171
+171,MUSCLE,7,Right,Pectineus,[],170
+172,MUSCLE,7,Left,Gracilis,[8],173
+173,MUSCLE,7,Right,Gracilis,[8],172
+174,MUSCLE,7,Left,Piriformis,[],175
+175,MUSCLE,7,Right,Piriformis,[],174
+176,MUSCLE,7,Left,Obturator Internus,[],177
+177,MUSCLE,7,Right,Obturator Internus,[],176
+178,MUSCLE,7,Left,Obturator Externus,[],179
+179,MUSCLE,7,Right,Obturator Externus,[],178
+180,MUSCLE,7,Left,Gemelli (Superior/Inferior),[],181
+181,MUSCLE,7,Right,Gemelli (Superior/Inferior),[],180
+182,MUSCLE,7,Left,Quadratus Femoris,[],183
+183,MUSCLE,7,Right,Quadratus Femoris,[],182
+184,FASCIA,7,Left,Iliotibial Band,[8],185
+185,FASCIA,7,Right,Iliotibial Band,[8],184
+186,FASCIA,7,Center,Pelvic Fascia,[],''
+187,FASCIA,7,Left,Inguinal Ligament,[],188
+188,FASCIA,7,Right,Inguinal Ligament,[],187
+189,MUSCLE,8,Left,Vastus Lateralis,[],190
+190,MUSCLE,8,Right,Vastus Lateralis,[],189
+191,MUSCLE,8,Left,Vastus Medialis (VMO),[],192
+192,MUSCLE,8,Right,Vastus Medialis (VMO),[],191
+193,MUSCLE,8,Left,Vastus Intermedius,[],194
+194,MUSCLE,8,Right,Vastus Intermedius,[],193
+195,MUSCLE,8,Left,Sartorius,[],196
+196,MUSCLE,8,Right,Sartorius,[],195
+197,MUSCLE,8,Left,Popliteus,[],198
+198,MUSCLE,8,Right,Popliteus,[],197
+199,FASCIA,8,Left,Fascia Lata,[],200
+200,FASCIA,8,Right,Fascia Lata,[],199
+201,FASCIA,8,Left,Patellar Retinaculum,[],202
+202,FASCIA,8,Right,Patellar Retinaculum,[],201
+203,MUSCLE,9,Left,Gastrocnemius,[],204
+204,MUSCLE,9,Right,Gastrocnemius,[],203
+205,MUSCLE,9,Left,Soleus,[],206
+206,MUSCLE,9,Right,Soleus,[],205
+207,MUSCLE,9,Left,Tibialis Anterior,[],208
+208,MUSCLE,9,Right,Tibialis Anterior,[],207
+209,MUSCLE,9,Left,Tibialis Posterior,[9],210
+210,MUSCLE,9,Right,Tibialis Posterior,[9],209
+211,MUSCLE,9,Left,Peroneus (Fibularis) Longus,[9],212
+212,MUSCLE,9,Right,Peroneus (Fibularis) Longus,[9],211
+213,MUSCLE,9,Left,Peroneus (Fibularis) Brevis,[],214
+214,MUSCLE,9,Right,Peroneus (Fibularis) Brevis,[],213
+215,MUSCLE,9,Left,Flexor Digitorum Longus,[],216
+216,MUSCLE,9,Right,Flexor Digitorum Longus,[],215
+217,MUSCLE,9,Left,Flexor Hallucis Longus,[9],218
+218,MUSCLE,9,Right,Flexor Hallucis Longus,[9],217
+219,MUSCLE,9,Left,Extensor Digitorum Longus,[],220
+220,MUSCLE,9,Right,Extensor Digitorum Longus,[],219
+221,MUSCLE,9,Left,Extensor Hallucis Longus,[9],222
+222,MUSCLE,9,Right,Extensor Hallucis Longus,[9],221
+223,FASCIA,9,Left,Crural Fascia,[],224
+224,FASCIA,9,Right,Crural Fascia,[],223
+225,FASCIA,9,Left,Achilles Tendon,[],226
+226,FASCIA,9,Right,Achilles Tendon,[],225
+227,MUSCLE,9,Left,Interossei (Foot),[],228
+228,MUSCLE,9,Right,Interossei (Foot),[],227
+229,MUSCLE,9,Left,Lumbricals (Foot),[],230
+230,MUSCLE,9,Right,Lumbricals (Foot),[],229
+231,MUSCLE,9,Left,Flexor Digiti Minimi Brevis,[],232
+232,MUSCLE,9,Right,Flexor Digiti Minimi Brevis,[],231
+233,MUSCLE,9,Left,Flexor Hallucis Brevis,[],234
+234,MUSCLE,9,Right,Flexor Hallucis Brevis,[],233
+235,MUSCLE,9,Left,Extensor Hallucis Brevis,[],236
+236,MUSCLE,9,Right,Extensor Hallucis Brevis,[],235
+237,MUSCLE,9,Left,Flexor Digitorum Brevis,[],238
+238,MUSCLE,9,Right,Flexor Digitorum Brevis,[],237
+239,MUSCLE,9,Left,Extensor Digitorum Brevis,[],240
+240,MUSCLE,9,Right,Extensor Digitorum Brevis,[],239
+241,FASCIA,9,Left,Plantar Fascia (Plantar Aponeurosis),[],''
+242,FASCIA,9,Right,Plantar Fascia (Plantar Aponeurosis),[],'242'
+243,FASCIA,9,Left,Flexor Retinaculum,[],244
+244,FASCIA,9,Right,Flexor Retinaculum,[],243
+245,FASCIA,9,Left,Extensor Retinaculum,[],245
+246,FASCIA,9,Right,Extensor Retinaculum,[],245
+247,FASCIA,9,Left,Peroneal Retinaculum,[],248
+248,FASCIA,9,Right,Peroneal Retinaculum,[],247

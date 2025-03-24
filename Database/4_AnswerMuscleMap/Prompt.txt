@@ -1,0 +1,407 @@
+I am developing an app to ask questions to user to asses their posture.
+
+The goal here is creating a Muscle Assesment matrix 
+
+When user answers the question in questions list, those answers will be saved in Answers array.
+
+When I multiply the AnswerArray and the Muscle Assesment Matrix, I should have 248 element ( element count of Muscle list ) array. Lets call this resulting array as MuscleStatus Array.
+
+By using musclestatus array, I will know how the user's muscle status are, if any muscle is tight, or weak and overstreteched etc.
+
+if a value in Muscle status array is negative, then that means that specific muscle is tight and shortened, and needs to be stretched. If a value in Muscle Status array is positive, then that means that specific muscle is over stretched and needs to be trained. 
+
+Create the Muscle Assesment Matrix by using scientific resources as a reference. Use larger values if the relation between that question and that muscle is stronger. Muscle Assesment Matrix values should be between -10 and 10. Consider the chain effect on posture. Consider compensating behaviour of posture problems.
+
+Consider the chain effect on posture. Consider compensating behavior of posture problems. Consider main focus area of the question can affect neighboring areas. Consider main focus of the question can disrupt areas on above or below, for example; weak muscle on foot can create compensating tightness on thoracic region.  
+
+Use biomechanical bilateral equations, or clinic information or scientific data to fill the matrix. If you can't find solid information, use approximated or predicted values but try to make those approximations or predictions super accurate. This is not a hypothetical data. 
+
+Verify your own data by checking the symmetry of values. For example, questions for left and right must have symmetric values over same right and left muscles
+
+Do not print comments or summary. Only print the CSV file.
+
+Every row represents another muscle and every column represents another question in this CSV file. Each Cell represents the relation bw corresponding muscle and question.
+
+
+Create CSV table only for Neck(Cervical). Do not create example table, create real table with real and scientific resources.
+
+REGIONS:
+
+1,	Head & Jaw
+2,	Neck (Cervical)
+3,	Shoulder Girdle (Scapular Region)
+4,	Thoracic Spine & Ribcage
+5,	Lumbar Spine & Core
+6,	Pelvis
+7,	Hips
+8,	Knees
+9,	Ankles & Feet 
+10,	Dynamic Assesment
+11,	Pain Assesment 
+
+MUSCLES:
+
+ItemNumber,Type,PrimaryRegion,Side,Name,OtherRegions,SymmetricItemNumber
+1,MUSCLE,1,Left,Masseter,[],2
+2,MUSCLE,1,Right,Masseter,[],1
+3,MUSCLE,1,Left,Temporalis,[],4
+4,MUSCLE,1,Right,Temporalis,[],3
+5,MUSCLE,1,Left,Medial Pterygoid,[],6
+6,MUSCLE,1,Right,Medial Pterygoid,[],5
+7,MUSCLE,1,Left,Lateral Pterygoid,[],8
+8,MUSCLE,1,Right,Lateral Pterygoid,[],7
+9,MUSCLE,1,Left,Digastric,[2],10
+10,MUSCLE,1,Right,Digastric,[2],9
+11,MUSCLE,1,Left,Mylohyoid,[2],12
+12,MUSCLE,1,Right,Mylohyoid,[2],11
+13,MUSCLE,1,Left,Stylohyoid,[2],14
+14,MUSCLE,1,Right,Stylohyoid,[2],13
+15,MUSCLE,1,Left,Sternohyoid,[2],16
+16,MUSCLE,1,Right,Sternohyoid,[2],15
+17,MUSCLE,1,Left,Sternothyroid,[2],18
+18,MUSCLE,1,Right,Sternothyroid,[2],17
+19,MUSCLE,1,Left,Omohyoid,[2],20
+20,MUSCLE,1,Right,Omohyoid,[2],19
+21,MUSCLE,1,Left,Thyrohyoid,[2],22
+22,MUSCLE,1,Right,Thyrohyoid,[2],21
+23,FASCIA,1,Left,Temporalis Fascia,[],24
+24,FASCIA,1,Right,Temporalis Fascia,[],23
+25,FASCIA,1,Left,Superficial Fascia of Face/Scalp,[],26
+26,FASCIA,1,Right,Superficial Fascia of Face/Scalp,[],25
+27,MUSCLE,2,Left,Longus Capitis,[],28
+28,MUSCLE,2,Right,Longus Capitis,[],27
+29,MUSCLE,2,Left,Longus Colli,[],30
+30,MUSCLE,2,Right,Longus Colli,[],29
+31,MUSCLE,2,Left,Rectus Capitis Anterior,[],32
+32,MUSCLE,2,Right,Rectus Capitis Anterior,[],31
+33,MUSCLE,2,Left,Sternocleidomastoid,[1,4],34
+34,MUSCLE,2,Right,Sternocleidomastoid,[1,4],33
+35,MUSCLE,2,Left,Scalenes (Anterior),[4],36
+36,MUSCLE,2,Right,Scalenes (Anterior),[4],35
+37,MUSCLE,2,Left,Scalenes (Middle),[4],38
+38,MUSCLE,2,Right,Scalenes (Middle),[4],37
+39,MUSCLE,2,Left,Scalenes (Posterior),[4],40
+40,MUSCLE,2,Right,Scalenes (Posterior),[4],39
+41,MUSCLE,2,Left,Rectus Capitis Posterior Major,[1],42
+42,MUSCLE,2,Right,Rectus Capitis Posterior Major,[1],41
+43,MUSCLE,2,Left,Rectus Capitis Posterior Minor,[1],44
+44,MUSCLE,2,Right,Rectus Capitis Posterior Minor,[1],43
+45,MUSCLE,2,Left,Obliquus Capitis Superior,[1],46
+46,MUSCLE,2,Right,Obliquus Capitis Superior,[1],45
+47,MUSCLE,2,Left,Obliquus Capitis Inferior,[],48
+48,MUSCLE,2,Right,Obliquus Capitis Inferior,[],47
+49,MUSCLE,2,Left,Splenius Capitis,[],50
+50,MUSCLE,2,Right,Splenius Capitis,[],49
+51,MUSCLE,2,Left,Splenius Cervicis,[],52
+52,MUSCLE,2,Right,Splenius Cervicis,[],51
+53,MUSCLE,2,Left,Levator Scapulae,[3],54
+54,MUSCLE,2,Right,Levator Scapulae,[3],53
+55,MUSCLE,2,Left,Upper Trapezius,[1,3],56
+56,MUSCLE,2,Right,Upper Trapezius,[1,3],55
+57,FASCIA,2,Center,Nuchal Ligament,[],''
+58,FASCIA,2,Left,Prevertebral Fascia,[],59
+59,FASCIA,2,Right,Prevertebral Fascia,[],58
+60,FASCIA,2,Left,Suboccipital Fascia,[],61
+61,FASCIA,2,Right,Suboccipital Fascia,[],60
+62,MUSCLE,3,Left,Middle Trapezius,[4],63
+63,MUSCLE,3,Right,Middle Trapezius,[4],62
+64,MUSCLE,3,Left,Lower Trapezius,[4],65
+65,MUSCLE,3,Right,Lower Trapezius,[4],64
+66,MUSCLE,3,Left,Rhomboid Major,[4],67
+67,MUSCLE,3,Right,Rhomboid Major,[4],66
+68,MUSCLE,3,Left,Rhomboid Minor,[2,4],69
+69,MUSCLE,3,Right,Rhomboid Minor,[2,4],68
+70,MUSCLE,3,Left,Serratus Anterior,[4],71
+71,MUSCLE,3,Right,Serratus Anterior,[4],70
+72,MUSCLE,3,Left,Supraspinatus,[],73
+73,MUSCLE,3,Right,Supraspinatus,[],72
+74,MUSCLE,3,Left,Infraspinatus,[],75
+75,MUSCLE,3,Right,Infraspinatus,[],74
+76,MUSCLE,3,Left,Teres Minor,[],77
+77,MUSCLE,3,Right,Teres Minor,[],76
+78,MUSCLE,3,Left,Subscapularis,[],79
+79,MUSCLE,3,Right,Subscapularis,[],78
+80,MUSCLE,3,Left,Pectoralis Minor,[4],81
+81,MUSCLE,3,Right,Pectoralis Minor,[4],80
+82,MUSCLE,3,Left,Pectoralis Major,[4,5],83
+83,MUSCLE,3,Right,Pectoralis Major,[4,5],82
+84,MUSCLE,3,Left,Latissimus Dorsi,[4,5,7],85
+85,MUSCLE,3,Right,Latissimus Dorsi,[4,5,7],84
+86,FASCIA,3,Left,Brachial Fascia,[],87
+87,FASCIA,3,Right,Brachial Fascia,[],86
+88,FASCIA,3,Left,Axillary Fascia,[],89
+89,FASCIA,3,Right,Axillary Fascia,[],88
+90,MUSCLE,4,Left,Iliocostalis Thoracis,[5],91
+91,MUSCLE,4,Right,Iliocostalis Thoracis,[5],90
+92,MUSCLE,4,Left,Longissimus Thoracis,[5],93
+93,MUSCLE,4,Right,Longissimus Thoracis,[5],92
+94,MUSCLE,4,Left,Spinalis Thoracis,[5],95
+95,MUSCLE,4,Right,Spinalis Thoracis,[5],94
+96,MUSCLE,4,Left,Multifidus (Thoracic),[5],97
+97,MUSCLE,4,Right,Multifidus (Thoracic),[5],96
+98,MUSCLE,4,Left,Serratus Posterior Superior,[2],99
+99,MUSCLE,4,Right,Serratus Posterior Superior,[2],98
+100,MUSCLE,4,Left,Serratus Posterior Inferior,[5],101
+101,MUSCLE,4,Right,Serratus Posterior Inferior,[5],100
+102,MUSCLE,4,Left,Intercostal Muscles,[],103
+103,MUSCLE,4,Right,Intercostal Muscles,[],102
+104,FASCIA,4,Left,Thoracolumbar Fascia (Upper Portion),[5],105
+105,FASCIA,4,Right,Thoracolumbar Fascia (Upper Portion),[5],104
+106,FASCIA,4,Left,Costal Pleura & Intercostal Fascia,[],107
+107,FASCIA,4,Right,Costal Pleura & Intercostal Fascia,[],106
+108,MUSCLE,5,Left,Rectus Abdominis,[4,7],109
+109,MUSCLE,5,Right,Rectus Abdominis,[4,7],108
+110,MUSCLE,5,Left,External Oblique,[4,5,7],111
+111,MUSCLE,5,Right,External Oblique,[4,5,7],110
+112,MUSCLE,5,Left,Internal Oblique,[4,5,7],113
+113,MUSCLE,5,Right,Internal Oblique,[4,5,7],112
+114,MUSCLE,5,Left,Transversus Abdominis,[4,5,7],115
+115,MUSCLE,5,Right,Transversus Abdominis,[4,5,7],114
+116,MUSCLE,5,Left,Diaphragm,[4,5],117
+117,MUSCLE,5,Right,Diaphragm,[4,5],116
+118,MUSCLE,5,Left,Pelvic Floor (Levator Ani Group),[7],119
+119,MUSCLE,5,Right,Pelvic Floor (Levator Ani Group),[7],118
+120,MUSCLE,5,Left,Coccygeus,[7],121
+121,MUSCLE,5,Right,Coccygeus,[7],120
+122,FASCIA,5,Center,Linea Alba,[],''
+123,FASCIA,5,Left,Rectus Sheath,[],124
+124,FASCIA,5,Right,Rectus Sheath,[],123
+125,FASCIA,5,Left,Transversalis Fascia,[],126
+126,FASCIA,5,Right,Transversalis Fascia,[],125
+127,FASCIA,5,Center,Central Tendon of Diaphragm,[],''
+128,MUSCLE,5,Left,Iliocostalis Lumborum,[4],129
+129,MUSCLE,5,Right,Iliocostalis Lumborum,[4],128
+130,MUSCLE,5,Left,Longissimus Lumborum,[4],131
+131,MUSCLE,5,Right,Longissimus Lumborum,[4],130
+132,MUSCLE,5,Left,Multifidus (Lumbar),[4],133
+133,MUSCLE,5,Right,Multifidus (Lumbar),[4],132
+134,MUSCLE,5,Left,Quadratus Lumborum,[4,7,5],135
+135,MUSCLE,5,Right,Quadratus Lumborum,[4,7,5],134
+136,MUSCLE,5,Left,Psoas Major,[4,5,7],137
+137,MUSCLE,5,Right,Psoas Major,[4,5,7],136
+138,MUSCLE,5,Left,Psoas Minor,[4,5,7],139
+139,MUSCLE,5,Right,Psoas Minor,[4,5,7],138
+140,FASCIA,5,Left,Thoracolumbar Fascia,[4,5],141
+141,FASCIA,5,Right,Thoracolumbar Fascia,[4,5],140
+142,FASCIA,5,Left,Lumbar Fascia,[],143
+143,FASCIA,5,Right,Lumbar Fascia,[],142
+144,FASCIA,5,Left,Iliolumbar Ligaments,[7],145
+145,FASCIA,5,Right,Iliolumbar Ligaments,[7],144
+146,MUSCLE,7,Left,Iliacus,[5],147
+147,MUSCLE,7,Right,Iliacus,[5],146
+148,MUSCLE,7,Left,Rectus Femoris,[8],149
+149,MUSCLE,7,Right,Rectus Femoris,[8],148
+150,MUSCLE,7,Left,Tensor Fasciae Latae,[],151
+151,MUSCLE,7,Right,Tensor Fasciae Latae,[],150
+152,MUSCLE,7,Left,Gluteus Maximus,[],153
+153,MUSCLE,7,Right,Gluteus Maximus,[],152
+154,MUSCLE,7,Left,Biceps Femoris,[8],155
+155,MUSCLE,7,Right,Biceps Femoris,[8],154
+156,MUSCLE,7,Left,Semitendinosus,[8],157
+157,MUSCLE,7,Right,Semitendinosus,[8],156
+158,MUSCLE,7,Left,Semimembranosus,[8],159
+159,MUSCLE,7,Right,Semimembranosus,[8],158
+160,MUSCLE,7,Left,Gluteus Medius,[],161
+161,MUSCLE,7,Right,Gluteus Medius,[],160
+162,MUSCLE,7,Left,Gluteus Minimus,[],163
+163,MUSCLE,7,Right,Gluteus Minimus,[],162
+164,MUSCLE,7,Left,Adductor Longus,[],165
+165,MUSCLE,7,Right,Adductor Longus,[],164
+166,MUSCLE,7,Left,Adductor Brevis,[],167
+167,MUSCLE,7,Right,Adductor Brevis,[],166
+168,MUSCLE,7,Left,Adductor Magnus,[],169
+169,MUSCLE,7,Right,Adductor Magnus,[],168
+170,MUSCLE,7,Left,Pectineus,[],171
+171,MUSCLE,7,Right,Pectineus,[],170
+172,MUSCLE,7,Left,Gracilis,[8],173
+173,MUSCLE,7,Right,Gracilis,[8],172
+174,MUSCLE,7,Left,Piriformis,[],175
+175,MUSCLE,7,Right,Piriformis,[],174
+176,MUSCLE,7,Left,Obturator Internus,[],177
+177,MUSCLE,7,Right,Obturator Internus,[],176
+178,MUSCLE,7,Left,Obturator Externus,[],179
+179,MUSCLE,7,Right,Obturator Externus,[],178
+180,MUSCLE,7,Left,Gemelli (Superior/Inferior),[],181
+181,MUSCLE,7,Right,Gemelli (Superior/Inferior),[],180
+182,MUSCLE,7,Left,Quadratus Femoris,[],183
+183,MUSCLE,7,Right,Quadratus Femoris,[],182
+184,FASCIA,7,Left,Iliotibial Band,[8],185
+185,FASCIA,7,Right,Iliotibial Band,[8],184
+186,FASCIA,7,Center,Pelvic Fascia,[],''
+187,FASCIA,7,Left,Inguinal Ligament,[],188
+188,FASCIA,7,Right,Inguinal Ligament,[],187
+189,MUSCLE,8,Left,Vastus Lateralis,[],190
+190,MUSCLE,8,Right,Vastus Lateralis,[],189
+191,MUSCLE,8,Left,Vastus Medialis (VMO),[],192
+192,MUSCLE,8,Right,Vastus Medialis (VMO),[],191
+193,MUSCLE,8,Left,Vastus Intermedius,[],194
+194,MUSCLE,8,Right,Vastus Intermedius,[],193
+195,MUSCLE,8,Left,Sartorius,[],196
+196,MUSCLE,8,Right,Sartorius,[],195
+197,MUSCLE,8,Left,Popliteus,[],198
+198,MUSCLE,8,Right,Popliteus,[],197
+199,FASCIA,8,Left,Fascia Lata,[],200
+200,FASCIA,8,Right,Fascia Lata,[],199
+201,FASCIA,8,Left,Patellar Retinaculum,[],202
+202,FASCIA,8,Right,Patellar Retinaculum,[],201
+203,MUSCLE,9,Left,Gastrocnemius,[],204
+204,MUSCLE,9,Right,Gastrocnemius,[],203
+205,MUSCLE,9,Left,Soleus,[],206
+206,MUSCLE,9,Right,Soleus,[],205
+207,MUSCLE,9,Left,Tibialis Anterior,[],208
+208,MUSCLE,9,Right,Tibialis Anterior,[],207
+209,MUSCLE,9,Left,Tibialis Posterior,[9],210
+210,MUSCLE,9,Right,Tibialis Posterior,[9],209
+211,MUSCLE,9,Left,Peroneus (Fibularis) Longus,[9],212
+212,MUSCLE,9,Right,Peroneus (Fibularis) Longus,[9],211
+213,MUSCLE,9,Left,Peroneus (Fibularis) Brevis,[],214
+214,MUSCLE,9,Right,Peroneus (Fibularis) Brevis,[],213
+215,MUSCLE,9,Left,Flexor Digitorum Longus,[],216
+216,MUSCLE,9,Right,Flexor Digitorum Longus,[],215
+217,MUSCLE,9,Left,Flexor Hallucis Longus,[9],218
+218,MUSCLE,9,Right,Flexor Hallucis Longus,[9],217
+219,MUSCLE,9,Left,Extensor Digitorum Longus,[],220
+220,MUSCLE,9,Right,Extensor Digitorum Longus,[],219
+221,MUSCLE,9,Left,Extensor Hallucis Longus,[9],222
+222,MUSCLE,9,Right,Extensor Hallucis Longus,[9],221
+223,FASCIA,9,Left,Crural Fascia,[],224
+224,FASCIA,9,Right,Crural Fascia,[],223
+225,FASCIA,9,Left,Achilles Tendon,[],226
+226,FASCIA,9,Right,Achilles Tendon,[],225
+227,MUSCLE,9,Left,Interossei (Foot),[],228
+228,MUSCLE,9,Right,Interossei (Foot),[],227
+229,MUSCLE,9,Left,Lumbricals (Foot),[],230
+230,MUSCLE,9,Right,Lumbricals (Foot),[],229
+231,MUSCLE,9,Left,Flexor Digiti Minimi Brevis,[],232
+232,MUSCLE,9,Right,Flexor Digiti Minimi Brevis,[],231
+233,MUSCLE,9,Left,Flexor Hallucis Brevis,[],234
+234,MUSCLE,9,Right,Flexor Hallucis Brevis,[],233
+235,MUSCLE,9,Left,Extensor Hallucis Brevis,[],236
+236,MUSCLE,9,Right,Extensor Hallucis Brevis,[],235
+237,MUSCLE,9,Left,Flexor Digitorum Brevis,[],238
+238,MUSCLE,9,Right,Flexor Digitorum Brevis,[],237
+239,MUSCLE,9,Left,Extensor Digitorum Brevis,[],240
+240,MUSCLE,9,Right,Extensor Digitorum Brevis,[],239
+241,FASCIA,9,Left,Plantar Fascia (Plantar Aponeurosis),[],''
+242,FASCIA,9,Right,Plantar Fascia (Plantar Aponeurosis),[],'242'
+243,FASCIA,9,Left,Flexor Retinaculum,[],244
+244,FASCIA,9,Right,Flexor Retinaculum,[],243
+245,FASCIA,9,Left,Extensor Retinaculum,[],245
+246,FASCIA,9,Right,Extensor Retinaculum,[],245
+247,FASCIA,9,Left,Peroneal Retinaculum,[],248
+248,FASCIA,9,Right,Peroneal Retinaculum,[],247
+
+QUESTIONS:
+
+question_id,region_id,basic_question,detailed_question,how_to_assess
+l_tmj_tension,1,"Left jaw joint tightness?","Checks if the left jaw joint feels squeezed or stiff (-10 = very tight, +10 = very open, 0 = normal).","Gently move your left jaw up and down or side to side. If it feels stuck, pick a negative number. If it feels more open, pick a positive number. Zero is your usual feeling."
+r_tmj_tension,1,"Right jaw joint tightness?","Checks if the right jaw joint feels squeezed or stiff (-10 = very tight, +10 = very open, 0 = normal).","Gently move your right jaw up and down or side to side. If it feels stuck, pick a negative number. If it feels more open, pick a positive number. Zero is your usual feeling."
+l_jaw_position,1,"Left jaw forward/back?","Looks at whether your left jaw sits behind or ahead of your normal spot (-10 = far back, +10 = far forward, 0 = neutral).","Look at your jaw from the side in a mirror. If it’s pulled way back, go negative. If it’s pushed forward, go positive. Zero is your normal."
+r_jaw_position,1,"Right jaw forward/back?","Looks at whether your right jaw sits behind or ahead of your normal spot (-10 = far back, +10 = far forward, 0 = neutral).","Look at your jaw from the side in a mirror. If it’s pulled way back, go negative. If it’s pushed forward, go positive. Zero is your normal."
+l_head_weight,1,"Left side head feeling?","Checks if the left side of your head feels lighter or heavier than normal (-10 = very light, +10 = very heavy, 0 = balanced).","Stand or sit up straight. If your head tips left or feels heavier on that side, go positive. If it feels lighter, go negative. Zero is balanced."
+r_head_weight,1,"Right side head feeling?","Checks if the right side of your head feels lighter or heavier than normal (-10 = very light, +10 = very heavy, 0 = balanced).","Stand or sit up straight. If your head tips right or feels heavier on that side, go positive. If it feels lighter, go negative. Zero is balanced."
+head_tilt_sagittal,1,"Head tilt forward/back?","Checks if you tilt your head forward or backward relative to a neutral spot (-10 = far down, +10 = far up, 0 = neutral).","View your side profile. If you look down more, go negative. If you tilt up, go positive. Zero is level."
+l_ear_shoulder,1,"Left ear to shoulder?","Shows if your left ear is in front or behind your shoulder (-10 = far forward, +10 = behind, 0 = lined up).","Look at your left ear from the side. If it’s ahead of your shoulder, go negative. If it’s behind, go positive. Zero means it lines up."
+r_ear_shoulder,1,"Right ear to shoulder?","Shows if your right ear is in front or behind your shoulder (-10 = far forward, +10 = behind, 0 = lined up).","Look at your right ear from the side. If it’s ahead of your shoulder, go negative. If it’s behind, go positive. Zero means it lines up."
+l_neck_tilt,2,"Left side neck feeling?","Checks how scrunched or stretched the left side of your neck is (-10 = very tight, +10 = very stretched, 0 = normal).","Slowly tilt your head left. If it feels tight, lean negative. If it feels more open, lean positive. Zero is normal tilt."
+r_neck_tilt,2,"Right side neck feeling?","Checks how scrunched or stretched the right side of your neck is (-10 = very tight, +10 = very stretched, 0 = normal).","Slowly tilt your head right. If it feels tight, lean negative. If it feels more open, lean positive. Zero is normal tilt."
+l_neck_rotation,2,"Left neck turning range?","Checks how easy it is to turn your neck left (-10 = really stuck, +10 = very free, 0 = normal).","Gently turn your head left. If it’s locked up, go negative. If it moves easily, go positive. Zero is usual movement."
+r_neck_rotation,2,"Right neck turning range?","Checks how easy it is to turn your neck right (-10 = really stuck, +10 = very free, 0 = normal).","Gently turn your head right. If it’s locked up, go negative. If it moves easily, go positive. Zero is usual movement."
+neck_forward,2,"Head forward position?","Looks at how far your head juts forward (-10 = far back, +10 = far forward, 0 = neutral).","Stand sideways to a mirror. If your head is far in front of your shoulders, go positive. If it’s behind, go negative. Zero is lined up."
+l_shoulder_height,3,"Left shoulder higher/lower?","Checks if your left shoulder is lower or higher (-10 = very low, +10 = very high, 0 = level).","Face a mirror. If the left shoulder looks lower, go negative. If higher, go positive. Zero means level with the right side."
+r_shoulder_height,3,"Right shoulder higher/lower?","Checks if your right shoulder is lower or higher (-10 = very low, +10 = very high, 0 = level).","Face a mirror. If the right shoulder looks lower, go negative. If higher, go positive. Zero means level with the left side."
+l_shoulder_forward,3,"Left shoulder forward/back?","Shows if your left shoulder rolls forward or back (-10 = far back, +10 = far forward, 0 = neutral).","Look at the side profile. If the left shoulder is behind your torso, go negative. If it’s ahead, go positive. Zero is neutral."
+r_shoulder_forward,3,"Right shoulder forward/back?","Shows if your right shoulder rolls forward or back (-10 = far back, +10 = far forward, 0 = neutral).","Look at the side profile. If the right shoulder is behind your torso, go negative. If it’s ahead, go positive. Zero is neutral."
+l_scapula_position,3,"Left shoulder blade out/in?","Checks if your left shoulder blade sticks out or tucks in (-10 = wings out, +10 = pulled in, 0 = usual spot).","Use a mirror or a helper to see your back. If left blade sticks way out, go negative. If pulled in tight, go positive. Zero is typical."
+r_scapula_position,3,"Right shoulder blade out/in?","Checks if your right shoulder blade sticks out or tucks in (-10 = wings out, +10 = pulled in, 0 = usual spot).","Use a mirror or a helper to see your back. If right blade sticks way out, go negative. If pulled in tight, go positive. Zero is typical."
+l_scapula_winging,3,"Left blade poking out?","Looks at how much your left shoulder blade lifts away from the back (-10 = very flat, +10 = very poked out, 0 = normal).","Stand relaxed or try a wall push-up. If it really lifts off your back, go positive. If it’s super flat, go negative. Zero is normal."
+r_scapula_winging,3,"Right blade poking out?","Looks at how much your right shoulder blade lifts away from the back (-10 = very flat, +10 = very poked out, 0 = normal).","Stand relaxed or try a wall push-up. If it really lifts off your back, go positive. If it’s super flat, go negative. Zero is normal."
+l_pec_tension,4,"Left chest tight/open?","Checks if the left chest area feels compressed or open (-10 = very tight, +10 = very open, 0 = normal).","Place a hand on your left chest and gently press or stretch. If it feels really tight, go negative. If very open, go positive. Zero is normal."
+r_pec_tension,4,"Right chest tight/open?","Checks if the right chest area feels compressed or open (-10 = very tight, +10 = very open, 0 = normal).","Place a hand on your right chest and gently press or stretch. If it feels really tight, go negative. If very open, go positive. Zero is normal."
+l_ribcage_position,4,"Left ribcage up/down?","Shows if your left ribcage is dropped or raised (-10 = very low, +10 = very high, 0 = usual).","Look at your left side in a mirror. If it’s sunken, go negative. If lifted, go positive. Zero is your normal ribcage height."
+r_ribcage_position,4,"Right ribcage up/down?","Shows if your right ribcage is dropped or raised (-10 = very low, +10 = very high, 0 = usual).","Look at your right side in a mirror. If it’s sunken, go negative. If lifted, go positive. Zero is your normal ribcage height."
+l_breathing_pattern,4,"Left side breathing?","Checks how much your left side expands when you breathe (-10 = very tight, +10 = very open, 0 = normal).","Place a hand on left ribs while breathing. If it hardly moves (tight), go negative. If it expands a lot, go positive. Zero is normal expansion."
+r_breathing_pattern,4,"Right side breathing?","Checks how much your right side expands when you breathe (-10 = very tight, +10 = very open, 0 = normal).","Place a hand on right ribs while breathing. If it hardly moves (tight), go negative. If it expands a lot, go positive. Zero is normal expansion."
+l_thoracic_rotation,4,"Left upper back twist?","Shows how easily you twist your upper back left (-10 = very stuck, +10 = very free, 0 = normal).","Sit or stand upright. Gently turn your torso left. If it feels very tight, go negative. If it moves easily, go positive. Zero is normal."
+r_thoracic_rotation,4,"Right upper back twist?","Shows how easily you twist your upper back right (-10 = very stuck, +10 = very free, 0 = normal).","Sit or stand upright. Gently turn your torso right. If it feels very tight, go negative. If it moves easily, go positive. Zero is normal."
+l_thoracic_tension,4,"Left upper back tension?","Checks tightness in your left upper back area (-10 = extremely tight, +10 = very loose, 0 = normal).","Feel or gently press your left upper back. If it’s very tense, go negative. If relaxed or open, go positive. Zero is normal tension."
+r_thoracic_tension,4,"Right upper back tension?","Checks tightness in your right upper back area (-10 = extremely tight, +10 = very loose, 0 = normal).","Feel or gently press your right upper back. If it’s very tense, go negative. If relaxed or open, go positive. Zero is normal tension."
+l_thoracic_flexibility,4,"Left upper back flexibility?","Shows how flexible or stiff your left upper back is (-10 = very stiff, +10 = very bendy, 0 = normal).","Try arching or bending your upper back to the left. If it’s locked, go negative. If it bends easily, go positive. Zero is your usual range."
+r_thoracic_flexibility,4,"Right upper back flexibility?","Shows how flexible or stiff your right upper back is (-10 = very stiff, +10 = very bendy, 0 = normal).","Try arching or bending your upper back to the right. If it’s locked, go negative. If it bends easily, go positive. Zero is your usual range."
+thoracic_curve,4,"Upper back curve?","Looks at how rounded or flat your upper back is (-10 = very flat, +10 = very rounded, 0 = normal).","Stand sideways to a mirror. If your upper back is extra flat, go negative. If it’s quite rounded, go positive. Zero is normal curve."
+spine_curve_coronal,4,"Spine side curve?","Shows if spine curves left or right (-10=curves left, +10=curves right, 0=straight).","Stand facing forward, check if spine leans left or right. If left, go negative. If right, go positive. Zero is straight."
+l_lumbar_tension,5,"Left lower back tension?","Checks if your left lower back feels overly tight or loose (-10 = very tight, +10 = very loose, 0 = normal).","Gently press or move your left lower back. If it’s very tight, go negative. If it feels open, go positive. Zero is normal tension."
+r_lumbar_tension,5,"Right lower back tension?","Checks if your right lower back feels overly tight or loose (-10 = very tight, +10 = very loose, 0 = normal).","Gently press or move your right lower back. If it’s very tight, go negative. If it feels open, go positive. Zero is normal tension."
+l_lumbar_rotation,5,"Left lower back twist?","Shows how easily you twist your lower back to the left (-10 = stuck, +10 = very free, 0 = normal).","Stand or sit upright. Gently rotate your hips/torso left. If tight, go negative. If free, go positive. Zero is usual movement."
+r_lumbar_rotation,5,"Right lower back twist?","Shows how easily you twist your lower back to the right (-10 = stuck, +10 = very free, 0 = normal).","Stand or sit upright. Gently rotate your hips/torso right. If tight, go negative. If free, go positive. Zero is usual movement."
+l_lumbar_sidebend,5,"Left lower back side-bend?","Checks if bending sideways left at your lower back feels tight or open (-10 = very tight, +10 = very open, 0 = normal).","Stand and bend sideways to the left. If it feels jammed, go negative. If you can bend well, go positive. Zero is normal."
+r_lumbar_sidebend,5,"Right lower back side-bend?","Checks if bending sideways right at your lower back feels tight or open (-10 = very tight, +10 = very open, 0 = normal).","Stand and bend sideways to the right. If it feels jammed, go negative. If you can bend well, go positive. Zero is normal."
+lumbar_curve,5,"Lower back curve?","Shows if your lower back is overly flat or too arched (-10 = very flat, +10 = very arched, 0 = normal).","Look at your side profile. If you have a deep arch, go positive. If it’s very flat, go negative. Zero is a natural curve."
+l_upper_abs,5,"Left upper belly firmness?","Checks if your left upper belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).","Tense your upper left belly slightly or press gently. If it’s weak, pick a negative number. If it’s especially firm, pick a positive number. Zero is usual strength."
+r_upper_abs,5,"Right upper belly firmness?","Checks if your right upper belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).","Tense your upper right belly slightly or press gently. If it’s weak, pick a negative number. If it’s especially firm, pick a positive number. Zero is usual strength."
+l_lower_abs,5,"Left lower belly firmness?","Checks if your left lower belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).","Tense your lower left belly or press gently. If it’s weak, pick a negative number. If it’s firm, pick a positive. Zero is your normal feeling."
+r_lower_abs,5,"Right lower belly firmness?","Checks if your right lower belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).","Tense your lower right belly or press gently. If it’s weak, pick a negative number. If it’s firm, pick a positive. Zero is your normal feeling."
+l_obliques,5,"Left side belly strength?","Shows if your left side belly muscles feel weaker or stronger (-10 = very weak, +10 = very tight, 0 = normal).","Try a small side crunch to the left. If your side belly feels weak, go negative. If it’s tight/strong, go positive. Zero is normal."
+r_obliques,5,"Right side belly strength?","Shows if your right side belly muscles feel weaker or stronger (-10 = very weak, +10 = very tight, 0 = normal).","Try a small side crunch to the right. If your side belly feels weak, go negative. If it’s tight/strong, go positive. Zero is normal."
+l_si_joint,6,"Left back of hip tilt?","Checks if the back part of your left hip area tilts back or forward (-10 = tilted back, +10 = tilted forward, 0 = neutral).","Feel the back-left hip area. If it tilts back, go negative. If it tilts forward, go positive. Zero is centered."
+r_si_joint,6,"Right back of hip tilt?","Checks if the back part of your right hip area tilts back or forward (-10 = tilted back, +10 = tilted forward, 0 = neutral).","Feel the back-right hip area. If it tilts back, go negative. If it tilts forward, go positive. Zero is centered."
+l_psis_height,6,"Left back hip bone height?","Shows if the left back hip bone is low or high (-10 = very low, +10 = very high, 0 = level).","Use a mirror or a friend to compare the left back hip bone to the right. If it’s lower, go negative. If higher, go positive. Zero is level."
+r_psis_height,6,"Right back hip bone height?","Shows if the right back hip bone is low or high (-10 = very low, +10 = very high, 0 = level).","Use a mirror or a friend to compare the right back hip bone to the left. If it’s lower, go negative. If higher, go positive. Zero is level."
+l_asis_height,6,"Left front hip bone height?","Shows if the left front hip bone is low or high (-10 = very low, +10 = very high, 0 = level).","Use a mirror or a friend to compare the left front hip bone to the right. If it’s lower, go negative. If higher, go positive. Zero is level."
+r_asis_height,6,"Right front hip bone height?","Shows if the right front hip bone is low or high (-10 = very low, +10 = very high, 0 = level).","Use a mirror or a friend to compare the right front hip bone to the left. If it’s lower, go negative. If higher, go positive. Zero is level."
+l_hip_rotation,7,"Left hip turned in/out?","Checks if your left hip is rotated inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).","Stand with feet forward. If your left toes or knee point inward, go negative. If they point outward, go positive. Zero is straight ahead."
+r_hip_rotation,7,"Right hip turned in/out?","Checks if your right hip is rotated inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).","Stand with feet forward. If your right toes or knee point inward, go negative. If they point outward, go positive. Zero is straight ahead."
+l_hip_height,7,"Left hip lower/higher?","Shows if your left hip sits lower or higher (-10 = very low, +10 = very high, 0 = level).","Face a mirror. If your left hip seems lower, go negative. If it’s higher, go positive. Zero is level with the right side."
+r_hip_height,7,"Right hip lower/higher?","Shows if your right hip sits lower or higher (-10 = very low, +10 = very high, 0 = level).","Face a mirror. If your right hip seems lower, go negative. If it’s higher, go positive. Zero is level with the left side."
+l_hip_shift,7,"Left hip back/forward?","Checks if your left hip shifts backward or forward (-10 = shifted back, +10 = shifted forward, 0 = centered).","Stand sideways and see if your left hip is behind or ahead of your torso. If behind, go negative. If forward, go positive. Zero is centered."
+r_hip_shift,7,"Right hip back/forward?","Checks if your right hip shifts backward or forward (-10 = shifted back, +10 = shifted forward, 0 = centered).","Stand sideways and see if your right hip is behind or ahead of your torso. If behind, go negative. If forward, go positive. Zero is centered."
+l_glute_tone,7,"Left backside firmness?","Shows if your left backside (glute) feels weak or extra tight (-10 = very weak, +10 = very firm, 0 = normal).","Tense your left backside. If it feels weak, pick negative. If it’s very firm, pick positive. Zero is your normal feel."
+r_glute_tone,7,"Right backside firmness?","Shows if your right backside (glute) feels weak or extra tight (-10 = very weak, +10 = very firm, 0 = normal).","Tense your right backside. If it feels weak, pick negative. If it’s very firm, pick positive. Zero is your normal feel."
+l_hip_flexor,7,"Left front hip tight/open?","Checks if the front of your left hip is tight or open (-10 = very tight, +10 = very open, 0 = normal).","Gently stretch your left front hip (like a small lunge). If it feels very tight, go negative. If it opens easily, go positive. Zero is normal."
+r_hip_flexor,7,"Right front hip tight/open?","Checks if the front of your right hip is tight or open (-10 = very tight, +10 = very open, 0 = normal).","Gently stretch your right front hip (like a small lunge). If it feels very tight, go negative. If it opens easily, go positive. Zero is normal."
+l_knee_alignment,8,"Left knee angle?","Looks at whether your left knee points inward or outward (-10 = inward, +10 = outward, 0 = straight).","Stand with feet about hip-width. If the left knee bends inward, go negative. If it points outward, go positive. Zero is straight ahead."
+r_knee_alignment,8,"Right knee angle?","Looks at whether your right knee points inward or outward (-10 = inward, +10 = outward, 0 = straight).","Stand with feet about hip-width. If the right knee bends inward, go negative. If it points outward, go positive. Zero is straight ahead."
+l_knee_rotation,8,"Left knee rotation?","Checks if your left knee twists inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).","Gently twist or observe how your left knee moves. If it twists in, go negative. If out, go positive. Zero is no twist."
+r_knee_rotation,8,"Right knee rotation?","Checks if your right knee twists inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).","Gently twist or observe how your right knee moves. If it twists in, go negative. If out, go positive. Zero is no twist."
+l_patella_tracking,8,"Left kneecap direction?","Shows if your left kneecap is angled inward or outward (-10 = more inside, +10 = more outside, 0 = center).","Look down at your left kneecap alignment. If it points inward, go negative. If outward, go positive. Zero is center."
+r_patella_tracking,8,"Right kneecap direction?","Shows if your right kneecap is angled inward or outward (-10 = more inside, +10 = more outside, 0 = center).","Look down at your right kneecap alignment. If it points inward, go negative. If outward, go positive. Zero is center."
+l_knee_hyperext,8,"Left knee locked or bent?","Checks if the left knee locks backward or stays slightly bent (-10 = bent, +10 = locked back, 0 = normal).","Stand normally. If your left knee pushes far back, go positive. If it stays bent, go negative. Zero is a comfortable stance."
+r_knee_hyperext,8,"Right knee locked or bent?","Checks if the right knee locks backward or stays slightly bent (-10 = bent, +10 = locked back, 0 = normal).","Stand normally. If your right knee pushes far back, go positive. If it stays bent, go negative. Zero is a comfortable stance."
+l_q_angle,8,"Left knee angle measure?","Shows if your left knee angle is smaller or bigger (-10 = very small angle, +10 = very large, 0 = typical).","Look at the lines from hip to knee to foot on the left side. If the angle is tighter, go negative. If it’s wide, go positive. Zero is normal."
+r_q_angle,8,"Right knee angle measure?","Shows if your right knee angle is smaller or bigger (-10 = very small angle, +10 = very large, 0 = typical).","Look at the lines from hip to knee to foot on the right side. If the angle is tighter, go negative. If it’s wide, go positive. Zero is normal."
+l_ankle_position,9,"Left ankle tilt?","Shows if the left ankle tilts inward or outward (-10 = inward tilt, +10 = outward tilt, 0 = neutral).","Stand with feet relaxed. If your left ankle rolls inward, go negative. If it rolls outward, go positive. Zero is neutral."
+r_ankle_position,9,"Right ankle tilt?","Shows if the right ankle tilts inward or outward (-10 = inward tilt, +10 = outward tilt, 0 = neutral).","Stand with feet relaxed. If your right ankle rolls inward, go negative. If it rolls outward, go positive. Zero is neutral."
+l_arch_height,9,"Left foot arch low/high?","Checks if your left foot arch is very flat or high (-10 = very flat, +10 = very high, 0 = normal).","Observe or do a wet foot test. If the arch collapses, go negative. If it’s raised, go positive. Zero is a normal arch."
+r_arch_height,9,"Right foot arch low/high?","Checks if your right foot arch is very flat or high (-10 = very flat, +10 = very high, 0 = normal).","Observe or do a wet foot test. If the arch collapses, go negative. If it’s raised, go positive. Zero is a normal arch."
+l_foot_rotation,9,"Left foot turned in/out?","Shows if your left foot points inward or outward (-10 = inward, +10 = outward, 0 = straight).","Stand naturally. If left toes angle in, go negative. If they angle out, go positive. Zero is straight ahead."
+r_foot_rotation,9,"Right foot turned in/out?","Shows if your right foot points inward or outward (-10 = inward, +10 = outward, 0 = straight).","Stand naturally. If right toes angle in, go negative. If they angle out, go positive. Zero is straight ahead."
+l_toe_position,9,"Left toes shape?","Checks if your left toes curl or shift outward (-10 = curled in, +10 = angled out, 0 = normal).","Look at your left toes. If they curl or pinch inward, go negative. If they drift out, go positive. Zero is normal shape."
+r_toe_position,9,"Right toes shape?","Checks if your right toes curl or shift outward (-10 = curled in, +10 = angled out, 0 = normal).","Look at your right toes. If they curl or pinch inward, go negative. If they drift out, go positive. Zero is normal shape."
+l_heel_callus,9,"Left heel thick skin?","Shows if the left heel has built-up skin (-10 = none, +10 = very thick, 0 = normal).","Check your left heel for thickness. If almost no buildup, go negative. If very thick, go positive. Zero is normal layer."
+l_heel_callus_pos,9,"Left heel skin inside/outside?","Shows if the left heel callus is more on the inside or outside (-10 = inside, +10 = outside, 0 = center).","Check the left heel location of thick skin. If it’s mostly inside, go negative. If it’s on the outside, go positive. Zero is center."
+r_heel_callus,9,"Right heel thick skin?","Shows if the right heel has built-up skin (-10 = none, +10 = very thick, 0 = normal).","Check your right heel for thickness. If almost no buildup, go negative. If very thick, go positive. Zero is normal layer."
+r_heel_callus_pos,9,"Right heel skin inside/outside?","Shows if the right heel callus is more on the inside or outside (-10 = inside, +10 = outside, 0 = center).","Check the right heel location of thick skin. If it’s mostly inside, go negative. If it’s on the outside, go positive. Zero is center."
+l_forefoot_callus,9,"Left forefoot thick skin?","Shows if the ball or toes of the left foot have thick skin (-10 = none, +10 = very thick, 0 = normal).","Examine the front of your left foot for calluses. If none, go negative. If very thick, go positive. Zero is normal thickness."
+l_forefoot_callus_pos,9,"Left forefoot callus inside/outside?","Shows if the left forefoot callus is inside or outside (-10 = inside, +10 = outside, 0 = center).","Check the location of callus on the left forefoot. If inside, go negative. If outside, go positive. Zero is center."
+r_forefoot_callus,9,"Right forefoot thick skin?","Shows if the ball or toes of the right foot have thick skin (-10 = none, +10 = very thick, 0 = normal).","Examine the front of your right foot for calluses. If none, go negative. If very thick, go positive. Zero is normal thickness."
+r_forefoot_callus_pos,9,"Right forefoot callus inside/outside?","Shows if the right forefoot callus is inside or outside (-10 = inside, +10 = outside, 0 = center).","Check the location of callus on the right forefoot. If inside, go negative. If outside, go positive. Zero is center."
+l_heel_pressure,9,"Left heel pressure?","Checks if your left heel bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and notice pressure under your left heel. If hardly any weight, go negative. If a lot, go positive. Zero is normal load."
+r_heel_pressure,9,"Right heel pressure?","Checks if your right heel bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and notice pressure under your right heel. If hardly any weight, go negative. If a lot, go positive. Zero is normal load."
+l_forefoot_pressure,9,"Left forefoot pressure?","Checks if your left forefoot bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and notice pressure under your left forefoot. If hardly any, go negative. If a lot, go positive. Zero is normal load."
+r_forefoot_pressure,9,"Right forefoot pressure?","Checks if your right forefoot bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and notice pressure under your right forefoot. If hardly any, go negative. If a lot, go positive. Zero is normal load."
+l_lateral_pressure,9,"Left outer foot pressure?","Shows if your left foot’s outer edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and feel how much pressure is on the outer left foot. If barely any, go negative. If a lot, go positive. Zero is normal."
+r_lateral_pressure,9,"Right outer foot pressure?","Shows if your right foot’s outer edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and feel how much pressure is on the outer right foot. If barely any, go negative. If a lot, go positive. Zero is normal."
+l_medial_pressure,9,"Left inner foot pressure?","Shows if your left foot’s inner edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and feel how much pressure is on the inner left foot. If barely any, go negative. If a lot, go positive. Zero is normal."
+r_medial_pressure,9,"Right inner foot pressure?","Shows if your right foot’s inner edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).","Stand and feel how much pressure is on the inner right foot. If barely any, go negative. If a lot, go positive. Zero is normal."
+l_single_leg,10,"Left single-leg balance?","Checks if standing on your left leg feels unstable or steady (-10 = very secure, +10 = very wobbly, 0 = normal).","Try balancing on the left leg. If it’s super shaky, go positive. If rock-solid, go negative. Zero is an average balance."
+r_single_leg,10,"Right single-leg balance?","Checks if standing on your right leg feels unstable or steady (-10 = very secure, +10 = very wobbly, 0 = normal).","Try balancing on the right leg. If it’s super shaky, go positive. If rock-solid, go negative. Zero is an average balance."
+l_weight_shift,10,"Left side weight shift?","Shows if shifting weight to your left side feels controlled or not (-10 = controlled, +10 = uncontrolled, 0 = normal).","Gently lean or shift weight to the left. If you feel stable, go negative. If it’s hard to control, go positive. Zero is typical control."
+r_weight_shift,10,"Right side weight shift?","Shows if shifting weight to your right side feels controlled or not (-10 = controlled, +10 = uncontrolled, 0 = normal).","Gently lean or shift weight to the right. If you feel stable, go negative. If it’s hard to control, go positive. Zero is typical control."
+l_arm_raising,10,"Left arm raising pattern?","Checks if lifting your left arm is smooth or awkward (-10 = very smooth, +10 = very compensated, 0 = normal).","Raise your left arm overhead. If it’s jerky or you have to compensate a lot, go positive. If it’s easy and fluid, go negative. Zero is normal movement."
+r_arm_raising,10,"Right arm raising pattern?","Checks if lifting your right arm is smooth or awkward (-10 = very smooth, +10 = very compensated, 0 = normal).","Raise your right arm overhead. If it’s jerky or you have to compensate a lot, go positive. If it’s easy and fluid, go negative. Zero is normal movement."
+squat_symmetry,10,"Squat pattern left/right?","Shows if squatting leans left or right (-10 = heavily left, +10 = heavily right, 0 = balanced).","Do a slow squat. If you shift more to the left, go negative. If you shift more to the right, go positive. Zero means you stay centered."
+gait_symmetry,10,"Walking pattern left/right?","Checks if your walk favors one side (-10 = left side, +10 = right side, 0 = balanced).","Walk normally. If you lean or push off more on the left, go negative. If more on the right, go positive. Zero is even."
+l_upper_pain,11,"Left upper body discomfort?","Shows if the left upper area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).","Move or press gently around the left upper side (shoulder, arm, etc.). If very painful, go positive. If no pain, go negative. Zero is normal."
+r_upper_pain,11,"Right upper body discomfort?","Shows if the right upper area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).","Move or press gently around the right upper side (shoulder, arm, etc.). If very painful, go positive. If no pain, go negative. Zero is normal."
+l_lower_pain,11,"Left lower body discomfort?","Shows if the left lower area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).","Move or press gently around the left lower side (hip, leg, etc.). If very painful, go positive. If no pain, go negative. Zero is normal."
+r_lower_pain,11,"Right lower body discomfort?","Shows if the right lower area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).","Move or press gently around the right lower side (hip, leg, etc.). If very painful, go positive. If no pain, go negative. Zero is normal."

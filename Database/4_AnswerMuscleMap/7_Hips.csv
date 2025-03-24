@@ -1,0 +1,44 @@
+muscle_id,muscle_name,l_hip_rotation,r_hip_rotation,l_hip_height,r_hip_height,l_hip_shift,r_hip_shift,l_glute_tone,r_glute_tone,l_hip_flexor,r_hip_flexor
+146,Iliacus (Left),0,0,0,0,-6,0,0,0,8,0
+147,Iliacus (Right),0,0,0,0,0,-6,0,0,0,8
+148,Rectus Femoris (Left),0,0,0,0,-6,0,0,0,8,0
+149,Rectus Femoris (Right),0,0,0,0,0,-6,0,0,0,8
+150,Tensor Fasciae Latae (Left),8,0,2,0,-6,0,0,0,8,0
+151,Tensor Fasciae Latae (Right),0,8,0,2,0,-6,0,0,0,8
+152,Gluteus Maximus (Left),-5,0,4,0,6,0,-8,0,-3,0
+153,Gluteus Maximus (Right),0,-5,0,4,0,6,0,-8,0,-3
+154,Biceps Femoris (Left),-3,0,0,0,5,0,-6,0,-2,0
+155,Biceps Femoris (Right),0,-3,0,0,0,5,0,-6,0,-2
+156,Semitendinosus (Left),-3,0,0,0,5,0,-6,0,-2,0
+157,Semitendinosus (Right),0,-3,0,0,0,5,0,-6,0,-2
+158,Semimembranosus (Left),-3,0,0,0,5,0,-6,0,-2,0
+159,Semimembranosus (Right),0,-3,0,0,0,5,0,-6,0,-2
+160,Gluteus Medius (Left),-4,0,8,0,0,0,-7,0,0,0
+161,Gluteus Medius (Right),0,-4,0,8,0,0,0,-7,0,0
+162,Gluteus Minimus (Left),-4,0,7,0,0,0,-6,0,0,0
+163,Gluteus Minimus (Right),0,-4,0,7,0,0,0,-6,0,0
+164,Adductor Longus (Left),6,0,-3,0,0,0,0,0,0,0
+165,Adductor Longus (Right),0,6,0,-3,0,0,0,0,0,0
+166,Adductor Brevis (Left),5,0,-2,0,0,0,0,0,0,0
+167,Adductor Brevis (Right),0,5,0,-2,0,0,0,0,0,0
+168,Adductor Magnus (Left),7,0,-4,0,0,0,0,0,0,0
+169,Adductor Magnus (Right),0,7,0,-4,0,0,0,0,0,0
+170,Pectineus (Left),4,0,-1,0,-2,0,0,0,3,0
+171,Pectineus (Right),0,4,0,-1,0,-2,0,0,0,3
+172,Gracilis (Left),3,0,-2,0,0,0,0,0,0,0
+173,Gracilis (Right),0,3,0,-2,0,0,0,0,0,0
+174,Piriformis (Left),-6,0,0,0,0,0,0,0,0,0
+175,Piriformis (Right),0,-6,0,0,0,0,0,0,0,0
+176,Obturator Internus (Left),-5,0,0,0,0,0,0,0,0,0
+177,Obturator Internus (Right),0,-5,0,0,0,0,0,0,0,0
+178,Obturator Externus (Left),5,0,0,0,0,0,0,0,0,0
+179,Obturator Externus (Right),0,5,0,0,0,0,0,0,0,0
+180,Gemelli (Superior/Inferior) (Left),-4,0,0,0,0,0,0,0,0,0
+181,Gemelli (Superior/Inferior) (Right),0,-4,0,0,0,0,0,0,0,0
+182,Quadratus Femoris (Left),-4,0,0,0,0,0,0,0,0,0
+183,Quadratus Femoris (Right),0,-4,0,0,0,0,0,0,0,0
+184,Iliotibial Band (Left),-4,0,3,0,-2,0,0,0,0,0
+185,Iliotibial Band (Right),0,-4,0,3,0,-2,0,0,0,0
+186,Pelvic Fascia,0,0,0,0,0,0,0,0,0,0
+187,Inguinal Ligament (Left),0,0,0,0,-1,0,0,0,1,0
+188,Inguinal Ligament (Right),0,0,0,0,0,-1,0,0,0,1

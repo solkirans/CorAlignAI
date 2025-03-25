@@ -1,0 +1,29 @@
+muscle_id,muscle_name,l_shoulder_height,r_shoulder_height,l_shoulder_forward,r_shoulder_forward,l_scapula_position,r_scapula_position,l_scapula_winging,r_scapula_winging
+62,Middle Trapezius (Left),0,0,6,0,-8,0,0,0
+63,Middle Trapezius (Right),0,0,0,6,0,-8,0,0
+64,Lower Trapezius (Left),6,0,4,0,-6,0,-2,0
+65,Lower Trapezius (Right),0,6,0,4,0,-6,0,-2
+66,Rhomboid Major (Left),-2,0,5,0,-7,0,0,0
+67,Rhomboid Major (Right),0,-2,0,5,0,-7,0,0
+68,Rhomboid Minor (Left),-1,0,4,0,-6,0,0,0
+69,Rhomboid Minor (Right),0,-1,0,4,0,-6,0,0
+70,Serratus Anterior (Left),0,0,-6,0,8,0,9,0
+71,Serratus Anterior (Right),0,0,0,-6,0,8,0,9
+72,Supraspinatus (Left),-3,0,0,0,0,0,0,0
+73,Supraspinatus (Right),0,-3,0,0,0,0,0,0
+74,Infraspinatus (Left),0,0,4,0,0,0,0,0
+75,Infraspinatus (Right),0,0,0,4,0,0,0,0
+76,Teres Minor (Left),0,0,3,0,0,0,0,0
+77,Teres Minor (Right),0,0,0,3,0,0,0,0
+78,Subscapularis (Left),0,0,-5,0,0,0,0,0
+79,Subscapularis (Right),0,0,0,-5,0,0,0,0
+80,Pectoralis Minor (Left),5,0,-7,0,6,0,0,0
+81,Pectoralis Minor (Right),0,5,0,-7,0,6,0,0
+82,Pectoralis Major (Left),3,0,-8,0,0,0,0,0
+83,Pectoralis Major (Right),0,3,0,-8,0,0,0,0
+84,Latissimus Dorsi (Left),4,0,-4,0,0,0,0,0
+85,Latissimus Dorsi (Right),0,4,0,-4,0,0,0,0
+86,Brachial Fascia (Left),0,0,0,0,0,0,0,0
+87,Brachial Fascia (Right),0,0,0,0,0,0,0,0
+88,Axillary Fascia (Left),0,0,0,0,0,0,0,0
+89,Axillary Fascia (Right),0,0,0,0,0,0,0,0

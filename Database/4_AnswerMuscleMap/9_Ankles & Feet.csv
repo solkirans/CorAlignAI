@@ -1,0 +1,47 @@
+muscle_id,muscle_name,l_ankle_position,r_ankle_position,l_arch_height,r_arch_height,l_foot_rotation,r_foot_rotation,l_toe_position,r_toe_position,l_heel_callus,l_heel_callus_pos,r_heel_callus,r_heel_callus_pos,l_forefoot_callus,l_forefoot_callus_pos,r_forefoot_callus,r_forefoot_callus_pos,l_heel_pressure,r_heel_pressure,l_forefoot_pressure,r_forefoot_pressure,l_lateral_pressure,r_lateral_pressure,l_medial_pressure,r_medial_pressure
+203,Gastrocnemius (Left),-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0,0
+204,Gastrocnemius (Right),0,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0
+205,Soleus (Left),-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0,0
+206,Soleus (Right),0,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0
+207,Tibialis Anterior (Left),-8,0,-8,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,-4,0,-2,0,2,0
+208,Tibialis Anterior (Right),0,-8,0,-8,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,-4,0,-2,0,2
+209,Tibialis Posterior (Left),-8,0,-8,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,-2,0,2,0
+210,Tibialis Posterior (Right),0,-8,0,-8,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,-2,0,2
+211,Peroneus Longus (Left),8,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,2,0,-2,0
+212,Peroneus Longus (Right),0,8,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,2,0,-2
+213,Peroneus Brevis (Left),8,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,2,0,-2,0
+214,Peroneus Brevis (Right),0,8,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,2,0,-2
+215,Flexor Digitorum Longus (Left),0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+216,Flexor Digitorum Longus (Right),0,0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0
+217,Flexor Hallucis Longus (Left),0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+218,Flexor Hallucis Longus (Right),0,0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0
+219,Extensor Digitorum Longus (Left),0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,-4,0,0,0,0,0
+220,Extensor Digitorum Longus (Right),0,0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,-4,0,0,0,0
+221,Extensor Hallucis Longus (Left),0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,-4,0,0,0,0,0
+222,Extensor Hallucis Longus (Right),0,0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,-4,0,0,0,0
+223,Crural Fascia (Left),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+224,Crural Fascia (Right),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,Achilles Tendon (Left),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0,0
+226,Achilles Tendon (Right),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,4,0,0,0,0
+227,Interossei (Foot) (Left),0,0,-6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,Interossei (Foot) (Right),0,0,0,-6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+229,Lumbricals (Foot) (Left),0,0,-6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+230,Lumbricals (Foot) (Right),0,0,0,-6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+231,Flexor Digiti Minimi Brevis (Left),0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+232,Flexor Digiti Minimi Brevis (Right),0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+233,Flexor Hallucis Brevis (Left),0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234,Flexor Hallucis Brevis (Right),0,0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,Extensor Hallucis Brevis (Left),0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+236,Extensor Hallucis Brevis (Right),0,0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+237,Flexor Digitorum Brevis (Left),0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,Flexor Digitorum Brevis (Right),0,0,0,-6,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+239,Extensor Digitorum Brevis (Left),0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+240,Extensor Digitorum Brevis (Right),0,0,0,0,0,0,0,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+241,Plantar Fascia (Left),0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,Plantar Fascia (Right),0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+243,Flexor Retinaculum (Left),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,Flexor Retinaculum (Right),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+245,Extensor Retinaculum (Left),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+246,Extensor Retinaculum (Right),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+247,Peroneal Retinaculum (Left),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+248,Peroneal Retinaculum (Right),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

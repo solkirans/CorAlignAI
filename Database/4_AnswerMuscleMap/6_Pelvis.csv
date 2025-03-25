@@ -1,0 +1,25 @@
+muscle_id,muscle_name,l_si_joint,r_si_joint,l_psis_height,r_psis_height,l_asis_height,r_asis_height
+108,Rectus Abdominis (Left),5,0,0,0,0,0
+109,Rectus Abdominis (Right),0,5,0,0,0,0
+110,External Oblique (Left),5,0,4,0,4,0
+111,External Oblique (Right),0,5,0,4,0,4
+112,Internal Oblique (Left),5,0,4,0,4,0
+113,Internal Oblique (Right),0,5,0,4,0,4
+114,Transversus Abdominis (Left),5,0,3,0,3,0
+115,Transversus Abdominis (Right),0,5,0,3,0,3
+134,Quadratus Lumborum (Left),-3,0,-7,7,-7,7
+135,Quadratus Lumborum (Right),0,-3,7,-7,7,-7
+136,Psoas Major (Left),-8,0,-2,0,-2,0
+137,Psoas Major (Right),0,-8,0,-2,0,-2
+146,Iliacus (Left),-8,0,-2,0,-2,0
+147,Iliacus (Right),0,-8,0,-2,0,-2
+148,Rectus Femoris (Left),-8,0,-2,0,-2,0
+149,Rectus Femoris (Right),0,-8,0,-2,0,-2
+152,Gluteus Maximus (Left),6,0,0,0,0,0
+153,Gluteus Maximus (Right),0,6,0,0,0,0
+154,Biceps Femoris (Left),6,0,0,0,0,0
+155,Biceps Femoris (Right),0,6,0,0,0,0
+156,Semitendinosus (Left),6,0,0,0,0,0
+157,Semitendinosus (Right),0,6,0,0,0,0
+158,Semimembranosus (Left),6,0,0,0,0,0
+159,Semimembranosus (Right),0,6,0,0,0,0

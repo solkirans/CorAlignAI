@@ -1,0 +1,180 @@
+muscle_id,muscle_name,l_upper_pain,r_upper_pain,l_lower_pain,r_lower_pain
+1,Masseter (Left),-8,0,0,0
+2,Masseter (Right),0,-8,0,0
+3,Temporalis (Left),-8,0,0,0
+4,Temporalis (Right),0,-8,0,0
+5,Medial Pterygoid (Left),-8,0,0,0
+6,Medial Pterygoid (Right),0,-8,0,0
+7,Lateral Pterygoid (Left),-8,0,0,0
+8,Lateral Pterygoid (Right),0,-8,0,0
+9,Digastric (Left),-8,0,0,0
+10,Digastric (Right),0,-8,0,0
+11,Mylohyoid (Left),-8,0,0,0
+12,Mylohyoid (Right),0,-8,0,0
+13,Stylohyoid (Left),-8,0,0,0
+14,Stylohyoid (Right),0,-8,0,0
+15,Sternohyoid (Left),-8,0,0,0
+16,Sternohyoid (Right),0,-8,0,0
+17,Sternothyroid (Left),-8,0,0,0
+18,Sternothyroid (Right),0,-8,0,0
+19,Omohyoid (Left),-8,0,0,0
+20,Omohyoid (Right),0,-8,0,0
+21,Thyrohyoid (Left),-8,0,0,0
+22,Thyrohyoid (Right),0,-8,0,0
+23,Temporalis Fascia (Left),-8,0,0,0
+24,Temporalis Fascia (Right),0,-8,0,0
+25,Superficial Fascia of Face/Scalp (Left),-8,0,0,0
+26,Superficial Fascia of Face/Scalp (Right),0,-8,0,0
+27,Longus Capitis (Left),-8,0,0,0
+28,Longus Capitis (Right),0,-8,0,0
+29,Longus Colli (Left),-8,0,0,0
+30,Longus Colli (Right),0,-8,0,0
+31,Rectus Capitis Anterior (Left),-8,0,0,0
+32,Rectus Capitis Anterior (Right),0,-8,0,0
+33,Sternocleidomastoid (Left),-8,0,0,0
+34,Sternocleidomastoid (Right),0,-8,0,0
+35,Scalenes (Anterior) (Left),-8,0,0,0
+36,Scalenes (Anterior) (Right),0,-8,0,0
+37,Scalenes (Middle) (Left),-8,0,0,0
+38,Scalenes (Middle) (Right),0,-8,0,0
+39,Scalenes (Posterior) (Left),-8,0,0,0
+40,Scalenes (Posterior) (Right),0,-8,0,0
+41,Rectus Capitis Posterior Major (Left),-8,0,0,0
+42,Rectus Capitis Posterior Major (Right),0,-8,0,0
+43,Rectus Capitis Posterior Minor (Left),-8,0,0,0
+44,Rectus Capitis Posterior Minor (Right),0,-8,0,0
+45,Obliquus Capitis Superior (Left),-8,0,0,0
+46,Obliquus Capitis Superior (Right),0,-8,0,0
+47,Obliquus Capitis Inferior (Left),-8,0,0,0
+48,Obliquus Capitis Inferior (Right),0,-8,0,0
+49,Splenius Capitis (Left),-8,0,0,0
+50,Splenius Capitis (Right),0,-8,0,0
+51,Splenius Cervicis (Left),-8,0,0,0
+52,Splenius Cervicis (Right),0,-8,0,0
+53,Levator Scapulae (Left),-8,0,0,0
+54,Levator Scapulae (Right),0,-8,0,0
+55,Upper Trapezius (Left),-8,0,0,0
+56,Upper Trapezius (Right),0,-8,0,0
+57,Nuchal Ligament,-5,-5,0,0
+58,Prevertebral Fascia (Left),-8,0,0,0
+59,Prevertebral Fascia (Right),0,-8,0,0
+60,Suboccipital Fascia (Left),-8,0,0,0
+61,Suboccipital Fascia (Right),0,-8,0,0
+62,Middle Trapezius (Left),-8,0,0,0
+63,Middle Trapezius (Right),0,-8,0,0
+64,Lower Trapezius (Left),-8,0,0,0
+65,Lower Trapezius (Right),0,-8,0,0
+66,Rhomboid Major (Left),-8,0,0,0
+67,Rhomboid Major (Right),0,-8,0,0
+68,Rhomboid Minor (Left),-8,0,0,0
+69,Rhomboid Minor (Right),0,-8,0,0
+70,Serratus Anterior (Left),-8,0,0,0
+71,Serratus Anterior (Right),0,-8,0,0
+72,Supraspinatus (Left),-8,0,0,0
+73,Supraspinatus (Right),0,-8,0,0
+74,Infraspinatus (Left),-8,0,0,0
+75,Infraspinatus (Right),0,-8,0,0
+76,Teres Minor (Left),-8,0,0,0
+77,Teres Minor (Right),0,-8,0,0
+78,Subscapularis (Left),-8,0,0,0
+79,Subscapularis (Right),0,-8,0,0
+80,Pectoralis Minor (Left),-8,0,0,0
+81,Pectoralis Minor (Right),0,-8,0,0
+82,Pectoralis Major (Left),-8,0,-2,0
+83,Pectoralis Major (Right),0,-8,0,-2
+84,Latissimus Dorsi (Left),-8,0,-2,0
+85,Latissimus Dorsi (Right),0,-8,0,-2
+86,Brachial Fascia (Left),-8,0,0,0
+87,Brachial Fascia (Right),0,-8,0,0
+88,Axillary Fascia (Left),-8,0,0,0
+89,Axillary Fascia (Right),0,-8,0,0
+90,Iliocostalis Thoracis (Left),-8,0,-2,0
+91,Iliocostalis Thoracis (Right),0,-8,0,-2
+92,Longissimus Thoracis (Left),-8,0,-2,0
+93,Longissimus Thoracis (Right),0,-8,0,-2
+94,Spinalis Thoracis (Left),-8,0,-2,0
+95,Spinalis Thoracis (Right),0,-8,0,-2
+96,Multifidus (Thoracic) (Left),-8,0,-2,0
+97,Multifidus (Thoracic) (Right),0,-8,0,-2
+98,Serratus Posterior Superior (Left),-8,0,0,0
+99,Serratus Posterior Superior (Right),0,-8,0,0
+100,Serratus Posterior Inferior (Left),-8,0,-2,0
+101,Serratus Posterior Inferior (Right),0,-8,0,-2
+102,Intercostal Muscles (Left),-8,0,0,0
+103,Intercostal Muscles (Right),0,-8,0,0
+104,Thoracolumbar Fascia (Upper Portion) (Left),-8,0,-2,0
+105,Thoracolumbar Fascia (Upper Portion) (Right),0,-8,0,-2
+106,Costal Pleura & Intercostal Fascia (Left),-8,0,0,0
+107,Costal Pleura & Intercostal Fascia (Right),0,-8,0,0
+108,Rectus Abdominis (Left),-2,0,-8,0
+109,Rectus Abdominis (Right),0,-2,0,-8
+110,External Oblique (Left),-2,0,-8,0
+111,External Oblique (Right),0,-2,0,-8
+112,Internal Oblique (Left),-2,0,-8,0
+113,Internal Oblique (Right),0,-2,0,-8
+114,Transversus Abdominis (Left),-2,0,-8,0
+115,Transversus Abdominis (Right),0,-2,0,-8
+116,Diaphragm (Left),-2,0,-8,0
+117,Diaphragm (Right),0,-2,0,-8
+118,Pelvic Floor (Levator Ani Group) (Left),0,0,-8,0
+119,Pelvic Floor (Levator Ani Group) (Right),0,0,0,-8
+120,Coccygeus (Left),0,0,-8,0
+121,Coccygeus (Right),0,0,0,-8
+122,Linea Alba,0,0,-5,-5
+123,Rectus Sheath (Left),0,0,-8,0
+124,Rectus Sheath (Right),0,0,0,-8
+125,Transversalis Fascia (Left),0,0,-8,0
+126,Transversalis Fascia (Right),0,0,0,-8
+127,Central Tendon of Diaphragm,0,0,-5,-5
+128,Iliocostalis Lumborum (Left),-2,0,-8,0
+129,Iliocostalis Lumborum (Right),0,-2,0,-8
+130,Longissimus Lumborum (Left),-2,0,-8,0
+131,Longissimus Lumborum (Right),0,-2,0,-8
+132,Multifidus (Lumbar) (Left),-2,0,-8,0
+133,Multifidus (Lumbar) (Right),0,-2,0,-8
+134,Quadratus Lumborum (Left),-2,0,-8,0
+135,Quadratus Lumborum (Right),0,-2,0,-8
+136,Psoas Major (Left),-2,0,-8,0
+137,Psoas Major (Right),0,-2,0,-8
+138,Psoas Minor (Left),-2,0,-8,0
+139,Psoas Minor (Right),0,-2,0,-8
+140,Thoracolumbar Fascia (Left),-2,0,-8,0
+141,Thoracolumbar Fascia (Right),0,-2,0,-8
+142,Lumbar Fascia (Left),0,0,-8,0
+143,Lumbar Fascia (Right),0,0,0,-8
+144,Iliolumbar Ligaments (Left),0,0,-8,0
+145,Iliolumbar Ligaments (Right),0,0,0,-8
+146,Iliacus (Left),0,0,-8,0
+147,Iliacus (Right),0,0,0,-8
+148,Rectus Femoris (Left),0,0,-8,0
+149,Rectus Femoris (Right),0,0,0,-8
+150,Tensor Fasciae Latae (Left),0,0,-8,0
+151,Tensor Fasciae Latae (Right),0,0,0,-8
+152,Gluteus Maximus (Left),0,0,-8,0
+153,Gluteus Maximus (Right),0,0,0,-8
+154,Biceps Femoris (Left),0,0,-8,0
+155,Biceps Femoris (Right),0,0,0,-8
+156,Semitendinosus (Left),0,0,-8,0
+157,Semitendinosus (Right),0,0,0,-8
+158,Semimembranosus (Left),0,0,-8,0
+159,Semimembranosus (Right),0,0,0,-8
+160,Gluteus Medius (Left),0,0,-8,0
+161,Gluteus Medius (Right),0,0,0,-8
+162,Gluteus Minimus (Left),0,0,-8,0
+163,Gluteus Minimus (Right),0,0,0,-8
+164,Adductor Longus (Left),0,0,-8,0
+165,Adductor Longus (Right),0,0,0,-8
+166,Adductor Brevis (Left),0,0,-8,0
+167,Adductor Brevis (Right),0,0,0,-8
+168,Adductor Magnus (Left),0,0,-8,0
+169,Adductor Magnus (Right),0,0,0,-8
+170,Pectineus (Left),0,0,-8,0
+171,Pectineus (Right),0,0,0,-8
+172,Gracilis (Left),0,0,-8,0
+173,Gracilis (Right),0,0,0,-8
+174,Piriformis (Left),0,0,-8,0
+175,Piriformis (Right),0,0,0,-8
+176,Obturator Internus (Left),0,0,-8,0
+177,Obturator Internus (Right),0,0,0,-8
+178,Obturator Externus (Left),0,0,-8,0
+179,Obturator Externus (Right),0,0,0,-8

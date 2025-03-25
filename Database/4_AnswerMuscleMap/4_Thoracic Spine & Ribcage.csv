@@ -1,0 +1,19 @@
+muscle_id,muscle_name,l_pec_tension,r_pec_tension,l_ribcage_position,r_ribcage_position,l_breathing_pattern,r_breathing_pattern,l_thoracic_rotation,r_thoracic_rotation,l_thoracic_tension,r_thoracic_tension,l_thoracic_flexibility,r_thoracic_flexibility,thoracic_curve,spine_curve_coronal
+90,Iliocostalis Thoracis (Left),-2,0,-4,0,-3,0,4,-2,8,0,-4,0,-6,0
+91,Iliocostalis Thoracis (Right),0,-2,0,-4,0,-3,-2,4,0,8,0,-4,0,-6
+92,Longissimus Thoracis (Left),-2,0,-3,0,-2,0,3,-1,7,0,-3,0,-5,0
+93,Longissimus Thoracis (Right),0,-2,0,-3,0,-2,-1,3,0,7,0,-3,0,-5
+94,Spinalis Thoracis (Left),-1,0,-2,0,-1,0,2,-1,6,0,-2,0,-4,0
+95,Spinalis Thoracis (Right),0,-1,0,-2,0,-1,-1,2,0,6,0,-2,0,-4
+96,Multifidus (Thoracic) (Left),-3,0,-5,0,-4,0,5,-2,8,0,-5,0,-7,0
+97,Multifidus (Thoracic) (Right),0,-3,0,-5,0,-4,-2,5,0,8,0,-5,0,-7
+98,Serratus Posterior Superior (Left),-4,0,-6,0,-5,0,6,-3,9,0,-6,0,-8,0
+99,Serratus Posterior Superior (Right),0,-4,0,-6,0,-5,-3,6,0,9,0,-6,0,-8
+100,Serratus Posterior Inferior (Left),-2,0,-3,0,-2,0,3,-1,7,0,-3,0,-5,0
+101,Serratus Posterior Inferior (Right),0,-2,0,-3,0,-2,-1,3,0,7,0,-3,0,-5
+102,Intercostal Muscles (Left),-5,0,-7,0,-6,0,7,-4,10,0,-7,0,-9,0
+103,Intercostal Muscles (Right),0,-5,0,-7,0,-6,-4,7,0,10,0,-7,0,-9
+104,Thoracolumbar Fascia (Upper Portion) (Left),-1,0,-2,0,-1,0,2,-1,5,0,-2,0,-3,0
+105,Thoracolumbar Fascia (Upper Portion) (Right),0,-1,0,-2,0,-1,-1,2,0,5,0,-2,0,-3
+106,Costal Pleura & Intercostal Fascia (Left),-3,0,-4,0,-3,0,4,-2,8,0,-4,0,-6,0
+107,Costal Pleura & Intercostal Fascia (Right),0,-3,0,-4,0,-3,-2,4,0,8,0,-4,0,-6

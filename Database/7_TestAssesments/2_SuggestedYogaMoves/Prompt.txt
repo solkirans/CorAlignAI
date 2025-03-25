@@ -1,0 +1,382 @@
+Goal: Determining which yoga moves are best for user.
+
+Analyze user's posture problem and determine 10 best yoga moves for the user that will improve their posture.
+
+Answer List describes how user's answered those questions.
+
+Questions list describes the question asked to user for posture assessment.
+
+Yoga Move list describes the yoga moves that user can do to improve their posture.
+
+
+If user needs to improve their body symettrically, add two moves for each side.
+
+Print your answer as CSV file.
+
+Each row describes a user. Each column must have different yoga move that user needs to do. There must be 10 column for yoga moves.
+Include User ID, yoga move name and ID
+
+Answer:
+	Posture Problem	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture	Slumped Sitting Posture + Forward Head Posture	Slumped Sitting Posture + Rounded Shoulders	Slumped Sitting Posture + Kyphosis	Slumped Sitting Posture + Pelvic Tilt	Slumped Sitting Posture + Lordosis	Slumped Sitting Posture + Scoliosis	Slumped Sitting Posture + Text Neck	Slumped Sitting Posture + Flat Back Syndrome	Slumped Sitting Posture + Hyperlordosis	Slumped Sitting Posture + Kyphosis	Slumped Sitting Posture + Forward Head Posture + Kyphosis	Slumped Sitting Posture + Rounded Shoulders + Scoliosis	Slumped Sitting Posture + Pelvic Tilt + Lordosis	Slumped Sitting Posture + Kyphosis + Flat Back Syndrome	Slumped Sitting Posture + Forward Head Posture + Text Neck	Slumped Sitting Posture + Rounded Shoulders + Hyperlordosis	Slumped Sitting Posture + Scoliosis + Pelvic Tilt	Slumped Sitting Posture + Kyphosis + Forward Head Posture	Slumped Sitting Posture + Lordosis + Rounded Shoulders	Slumped Sitting Posture
+	User Notes	Mild Slumped Sitting, symmetric	Mild Slumped Sitting, symmetric	Moderate Slumped Sitting, asymmetric left	Mild Slumped Sitting, symmetric	Mild Slumped Sitting, symmetric	Moderate Slumped Sitting, asymmetric right	Mild Slumped Sitting, symmetric	Severe Slumped Sitting, symmetric	Mild Slumped Sitting, symmetric	Mild Slumped Sitting, symmetric	Moderate Slumped Sitting + Forward Head, symmetric	Moderate Slumped Sitting + Rounded Shoulders, symmetric	Moderate Slumped Sitting + Kyphosis, symmetric	Mild Slumped Sitting + Pelvic Tilt (anterior), symmetric	Moderate Slumped Sitting + Lordosis, symmetric	Moderate Slumped Sitting + Scoliosis (right curve), asymmetric right	Moderate Slumped Sitting + Text Neck, symmetric	Mild Slumped Sitting + Flat Back, symmetric	Moderate Slumped Sitting + Hyperlordosis, symmetric	Mild Slumped Sitting + Kyphosis, symmetric	Severe Slumped Sitting + Forward Head + Kyphosis, symmetric	Severe Slumped Sitting + Rounded Shoulders + Scoliosis (right curve), asymmetric right	Moderate Slumped Sitting + Pelvic Tilt (anterior) + Lordosis, symmetric	Mild Slumped Sitting + Kyphosis + Flat Back, symmetric	Severe Slumped Sitting + Forward Head + Text Neck, symmetric	Moderate Slumped Sitting + Rounded Shoulders + Hyperlordosis, symmetric	Severe Slumped Sitting + Scoliosis (right curve) + Pelvic Tilt (anterior), asymmetric right	Moderate Slumped Sitting + Kyphosis + Forward Head, symmetric	Severe Slumped Sitting + Lordosis + Rounded Shoulders, symmetric	Moderate Slumped Sitting, asymmetric right
+	User ID	361	362	363	364	365	366	367	368	369	370	371	372	373	374	375	376	377	378	379	380	381	382	383	384	385	386	387	388	389	390
+Question ID	Answer ID																														
+l_tmj_tension	1	-2	0	-3	0	-1	-2	0	-4	0	-1	-5	0	-2	0	-1	0	-3	0	-1	-2	-6	0	-1	-2	-4	0	-2	-3	-5	-2
+r_tmj_tension	2	-2	0	-1	0	-1	-3	0	-2	0	-1	-5	0	-2	0	-1	0	-3	0	-1	-2	-6	0	-1	-2	-4	0	-2	-3	-5	-3
+l_jaw_position	3	2	0	3	0	1	2	0	4	0	1	5	0	2	0	1	0	3	0	1	2	6	0	1	2	4	0	2	3	5	2
+r_jaw_position	4	2	0	1	0	1	3	0	2	0	1	5	0	2	0	1	0	3	0	1	2	6	0	1	2	4	0	2	3	5	3
+l_head_weight	5	1	0	2	0	0	1	0	3	0	0	3	1	2	0	0	1	2	0	0	2	4	1	0	2	3	1	2	2	3	1
+r_head_weight	6	1	0	0	0	0	2	0	1	0	0	3	1	2	0	0	0	2	0	0	2	4	0	0	2	3	0	2	2	3	2
+head_tilt_sagittal	7	3	2	4	2	1	3	2	5	3	2	6	4	5	2	2	3	5	2	2	4	7	3	2	4	6	3	4	4	6	3
+l_ear_shoulder	8	3	2	4	2	1	3	2	5	3	2	6	4	5	2	2	3	5	2	2	5	7	4	2	5	6	4	5	5	6	3
+r_ear_shoulder	9	3	2	2	2	1	4	2	3	3	2	6	4	5	2	2	2	5	2	2	5	7	3	2	5	6	3	5	5	6	4
+l_neck_tilt	10	-2	0	-3	0	-1	-2	0	-4	0	-1	-5	-2	-3	0	-1	-2	-3	0	-1	-3	-6	-2	-1	-3	-4	-2	-3	-3	-5	-2
+r_neck_tilt	11	-2	0	-1	0	-1	-3	0	-2	0	-1	-5	-2	-3	0	-1	0	-3	0	-1	-3	-6	-1	-1	-3	-4	-1	-3	-3	-5	-3
+l_neck_rotation	12	-2	0	-3	0	-1	-2	0	-4	0	-1	-5	-2	-3	0	-1	-2	-4	0	-1	-4	-6	-2	-1	-4	-5	-2	-3	-3	-5	-2
+r_neck_rotation	13	-2	0	-1	0	-1	-3	0	-2	0	-1	-5	-2	-3	0	-1	-1	-4	0	-1	-4	-6	-1	-1	-4	-5	-1	-3	-3	-5	-3
+neck_forward	14	3	2	4	2	1	3	2	5	3	2	6	4	5	2	2	3	6	2	2	5	7	4	2	6	7	4	5	5	7	3
+l_shoulder_height	15	0	0	1	0	0	0	0	2	0	0	1	2	2	0	0	1	1	0	0	2	3	2	0	2	2	2	2	2	2	0
+r_shoulder_height	16	0	0	0	0	0	1	0	0	0	0	1	2	2	0	0	0	1	0	0	2	3	1	0	2	2	1	2	2	2	1
+l_shoulder_forward	17	3	2	4	2	1	3	2	5	3	2	4	5	4	2	2	3	4	2	2	5	6	5	2	5	6	5	5	5	6	3
+r_shoulder_forward	18	3	2	2	2	1	4	2	3	3	2	4	5	4	2	2	2	4	2	2	5	6	4	2	5	6	4	5	5	6	4
+l_scapula_position	19	2	1	3	1	0	2	1	4	2	1	3	4	3	1	1	2	3	1	1	4	5	4	1	4	5	4	4	4	5	2
+r_scapula_position	20	2	1	1	1	0	3	1	2	2	1	3	4	3	1	1	1	3	1	1	4	5	3	1	4	5	3	4	4	5	3
+l_scapula_winging	21	1	0	2	0	0	1	0	3	1	0	2	3	2	0	0	1	2	0	0	3	4	3	0	3	4	3	3	3	4	1
+r_scapula_winging	22	1	0	0	0	0	2	0	1	1	0	2	3	2	0	0	0	2	0	0	3	4	2	0	3	4	2	3	3	4	2
+l_pec_tension	23	-3	-2	-4	-2	-1	-3	-2	-5	-3	-2	-4	-5	-4	-2	-2	-3	-4	-2	-2	-5	-6	-5	-2	-5	-6	-5	-5	-5	-6	-3
+r_pec_tension	24	-3	-2	-2	-2	-1	-4	-2	-3	-3	-2	-4	-5	-4	-2	-2	-2	-4	-2	-2	-5	-6	-4	-2	-5	-6	-4	-5	-5	-6	-4
+l_ribcage_position	25	0	0	1	0	0	0	0	2	0	0	1	2	2	0	0	1	1	0	0	2	3	2	0	2	2	2	2	2	2	0
+r_ribcage_position	26	0	0	0	0	0	1	0	0	0	0	1	2	2	0	0	0	1	0	0	2	3	1	0	2	2	1	2	2	2	1
+l_breathing_pattern	27	-2	0	-3	0	-1	-2	0	-4	0	-1	-3	-4	-3	0	-1	-2	-3	0	-1	-4	-5	-3	0	-4	-4	-3	-3	-3	-5	-2
+r_breathing_pattern	28	-2	0	-1	0	-1	-3	0	-2	0	-1	-3	-4	-3	0	-1	-1	-3	0	-1	-4	-5	-2	0	-4	-4	-2	-3	-3	-5	-3
+l_thoracic_rotation	29	-2	0	-3	0	-1	-2	0	-4	0	-1	-4	-4	-5	0	-1	-2	-3	0	-1	-5	-6	-3	0	-5	-5	-3	-4	-4	-6	-2
+r_thoracic_rotation	30	-2	0	-1	0	-1	-3	0	-2	0	-1	-4	-4	-5	0	-1	-1	-3	0	-1	-5	-6	-2	0	-5	-5	-2	-4	-4	-6	-3
+l_thoracic_tension	31	-3	-2	-4	-2	-1	-3	-2	-5	-3	-2	-4	-5	-5	-2	-2	-3	-4	-2	-2	-6	-7	-5	-2	-6	-6	-5	-5	-5	-7	-3
+r_thoracic_tension	32	-3	-2	-2	-2	-1	-4	-2	-3	-3	-2	-4	-5	-5	-2	-2	-2	-4	-2	-2	-6	-7	-4	-2	-6	-6	-4	-5	-5	-7	-4
+l_thoracic_flexibility	33	-2	0	-3	0	-1	-2	0	-4	0	-1	-4	-5	-5	0	-1	-2	-3	0	-1	-6	-7	-4	0	-6	-6	-4	-5	-5	-7	-2
+r_thoracic_flexibility	34	-2	0	-1	0	-1	-3	0	-2	0	-1	-4	-5	-5	0	-1	-1	-3	0	-1	-6	-7	-3	0	-6	-6	-3	-5	-5	-7	-3
+thoracic_curve	35	4	3	5	3	2	4	3	6	4	3	5	6	7	3	3	4	5	3	3	7	8	6	3	7	7	6	7	7	8	4
+spine_curve_coronal	36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	5	0	0	0	0	6	0	0	0
+l_lumbar_tension	37	-2	0	-3	0	-1	-2	0	-4	0	-1	-2	-3	-3	4	-4	-3	-2	0	5	-3	-4	-4	5	-2	-3	-4	-3	-5	-3	-2
+r_lumbar_tension	38	-2	0	-1	0	-1	-3	0	-2	0	-1	-2	-3	-3	4	-4	-2	-2	0	5	-3	-4	-4	5	-2	-3	-3	-3	-5	-3	-3
+l_lumbar_rotation	39	-1	0	-2	0	0	-1	0	-3	0	0	-2	-3	-3	0	-2	-3	-2	0	-2	-4	-5	-4	-2	-3	-3	-4	-4	-4	-4	-1
+r_lumbar_rotation	40	-1	0	0	0	0	-2	0	-1	0	0	-2	-3	-3	0	-2	-2	-2	0	-2	-4	-5	-3	-2	-3	-3	-3	-4	-4	-4	-2
+l_lumbar_sidebend	41	-1	0	-2	0	0	-1	0	-3	0	0	-2	-3	-3	0	-2	-3	-2	0	-2	-4	-5	-4	-2	-3	-3	-4	-4	-4	-4	-1
+r_lumbar_sidebend	42	-1	0	0	0	0	-2	0	-1	0	0	-2	-3	-3	0	-2	-2	-2	0	-2	-4	-5	-3	-2	-3	-3	-3	-4	-4	-4	-2
+lumbar_curve	43	2	1	3	1	0	2	1	4	2	1	2	3	3	5	6	3	2	0	7	3	4	6	6	2	3	4	3	6	3	2
+l_upper_abs	44	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_upper_abs	45	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_lower_abs	46	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_lower_abs	47	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_obliques	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_obliques	49	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_si_joint	50	1	0	2	0	0	1	0	3	0	0	1	2	4	2	2	2	1	0	3	2	3	4	4	1	2	3	4	3	2	1
+r_si_joint	51	1	0	0	0	0	2	0	1	0	0	1	2	4	2	2	1	1	0	3	2	3	3	4	1	2	2	3	3	2	2
+l_psis_height	52	0	0	1	0	0	0	0	2	0	0	0	1	2	1	1	1	0	0	2	1	2	3	2	0	1	2	3	2	1	0
+r_psis_height	53	0	0	0	0	0	1	0	0	0	0	0	1	2	1	1	0	0	0	2	1	2	2	2	0	1	1	2	2	1	1
+l_asis_height	54	0	0	1	0	0	0	0	2	0	0	0	1	2	1	1	1	0	0	2	1	2	3	2	0	1	2	3	2	1	0
+r_asis_height	55	0	0	0	0	0	1	0	0	0	0	0	1	2	1	1	0	0	0	2	1	2	2	2	0	1	1	2	2	1	1
+l_hip_rotation	56	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_hip_rotation	57	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_hip_height	58	0	0	1	0	0	0	0	2	0	0	0	1	2	1	1	1	0	0	2	1	2	3	2	0	1	2	3	2	1	0
+r_hip_height	59	0	0	0	0	0	1	0	0	0	0	0	1	2	1	1	0	0	0	2	1	2	2	2	0	1	1	2	2	1	1
+l_hip_shift	60	1	0	2	0	0	1	0	3	0	0	1	2	4	2	2	2	1	0	3	2	3	4	4	1	2	3	4	3	2	1
+r_hip_shift	61	1	0	0	0	0	2	0	1	0	0	1	2	4	2	2	1	1	0	3	2	3	3	4	1	2	2	3	3	2	2
+l_glute_tone	62	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_glute_tone	63	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_hip_flexor	64	-1	0	-2	0	0	-1	0	-3	0	0	-2	-3	-3	0	-2	-2	-2	0	-2	-3	-4	-3	-2	-2	-3	-3	-3	-3	-3	-1
+r_hip_flexor	65	-1	0	0	0	0	-2	0	-1	0	0	-2	-3	-3	0	-2	-1	-2	0	-2	-3	-4	-2	-2	-2	-3	-2	-3	-3	-3	-2
+l_knee_alignment	66	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_knee_alignment	67	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_knee_rotation	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_knee_rotation	69	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_patella_tracking	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_patella_tracking	71	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_knee_hyperext	72	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_knee_hyperext	73	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_q_angle	74	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_q_angle	75	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_ankle_position	76	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_ankle_position	77	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_arch_height	78	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_arch_height	79	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_foot_rotation	80	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_foot_rotation	81	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_toe_position	82	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_toe_position	83	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_heel_callus	84	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_heel_callus_pos	85	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_heel_callus	86	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_heel_callus_pos	87	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_forefoot_callus	88	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_forefoot_callus_pos	89	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_forefoot_callus	90	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_forefoot_callus_pos	91	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_heel_pressure	92	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_heel_pressure	93	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_forefoot_pressure	94	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_forefoot_pressure	95	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_lateral_pressure	96	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_lateral_pressure	97	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_medial_pressure	98	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_medial_pressure	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_single_leg	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_single_leg	101	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_weight_shift	102	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_weight_shift	103	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_arm_raising	104	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+r_arm_raising	105	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+squat_symmetry	106	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+gait_symmetry	107	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+l_upper_pain	108	2	0	3	0	1	2	0	4	0	1	3	4	4	0	2	2	3	0	2	4	5	4	0	4	4	4	4	4	5	2
+r_upper_pain	109	2	0	1	0	1	3	0	2	0	1	3	4	4	0	2	1	3	0	2	4	5	3	0	4	4	3	4	4	5	3
+l_lower_pain	110	1	0	2	0	0	1	0	3	0	0	1	2	3	2	3	2	1	0	3	2	3	4	4	1	2	3	4	4	2	1
+r_lower_pain	111	1	0	0	0	0	2	0	1	0	0	1	2	3	2	3	1	1	0	3	2	3	3	4	1	2	2	3	4	2	2
+
+Questions:
+
+question_id	region_id	basic_question	detailed_question
+l_tmj_tension	1	Left jaw joint tightness?	Checks if the left jaw joint feels squeezed or stiff (-10 = very tight, +10 = very open, 0 = normal).
+r_tmj_tension	1	Right jaw joint tightness?	Checks if the right jaw joint feels squeezed or stiff (-10 = very tight, +10 = very open, 0 = normal).
+l_jaw_position	1	Left jaw forward/back?	Looks at whether your left jaw sits behind or ahead of your normal spot (-10 = far back, +10 = far forward, 0 = neutral).
+r_jaw_position	1	Right jaw forward/back?	Looks at whether your right jaw sits behind or ahead of your normal spot (-10 = far back, +10 = far forward, 0 = neutral).
+l_head_weight	1	Left side head feeling?	Checks if the left side of your head feels lighter or heavier than normal (-10 = very light, +10 = very heavy, 0 = balanced).
+r_head_weight	1	Right side head feeling?	Checks if the right side of your head feels lighter or heavier than normal (-10 = very light, +10 = very heavy, 0 = balanced).
+head_tilt_sagittal	1	Head tilt forward/back?	Checks if you tilt your head forward or backward relative to a neutral spot (-10 = far down, +10 = far up, 0 = neutral).
+l_ear_shoulder	1	Left ear to shoulder?	Shows if your left ear is in front or behind your shoulder (-10 = far forward, +10 = behind, 0 = lined up).
+r_ear_shoulder	1	Right ear to shoulder?	Shows if your right ear is in front or behind your shoulder (-10 = far forward, +10 = behind, 0 = lined up).
+l_neck_tilt	2	Left side neck feeling?	Checks how scrunched or stretched the left side of your neck is (-10 = very tight, +10 = very stretched, 0 = normal).
+r_neck_tilt	2	Right side neck feeling?	Checks how scrunched or stretched the right side of your neck is (-10 = very tight, +10 = very stretched, 0 = normal).
+l_neck_rotation	2	Left neck turning range?	Checks how easy it is to turn your neck left (-10 = really stuck, +10 = very free, 0 = normal).
+r_neck_rotation	2	Right neck turning range?	Checks how easy it is to turn your neck right (-10 = really stuck, +10 = very free, 0 = normal).
+neck_forward	2	Head forward position?	Looks at how far your head juts forward (-10 = far back, +10 = far forward, 0 = neutral).
+l_shoulder_height	3	Left shoulder higher/lower?	Checks if your left shoulder is lower or higher (-10 = very low, +10 = very high, 0 = level).
+r_shoulder_height	3	Right shoulder higher/lower?	Checks if your right shoulder is lower or higher (-10 = very low, +10 = very high, 0 = level).
+l_shoulder_forward	3	Left shoulder forward/back?	Shows if your left shoulder rolls forward or back (-10 = far back, +10 = far forward, 0 = neutral).
+r_shoulder_forward	3	Right shoulder forward/back?	Shows if your right shoulder rolls forward or back (-10 = far back, +10 = far forward, 0 = neutral).
+l_scapula_position	3	Left shoulder blade out/in?	Checks if your left shoulder blade sticks out or tucks in (-10 = wings out, +10 = pulled in, 0 = usual spot).
+r_scapula_position	3	Right shoulder blade out/in?	Checks if your right shoulder blade sticks out or tucks in (-10 = wings out, +10 = pulled in, 0 = usual spot).
+l_scapula_winging	3	Left blade poking out?	Looks at how much your left shoulder blade lifts away from the back (-10 = very flat, +10 = very poked out, 0 = normal).
+r_scapula_winging	3	Right blade poking out?	Looks at how much your right shoulder blade lifts away from the back (-10 = very flat, +10 = very poked out, 0 = normal).
+l_pec_tension	4	Left chest tight/open?	Checks if the left chest area feels compressed or open (-10 = very tight, +10 = very open, 0 = normal).
+r_pec_tension	4	Right chest tight/open?	Checks if the right chest area feels compressed or open (-10 = very tight, +10 = very open, 0 = normal).
+l_ribcage_position	4	Left ribcage up/down?	Shows if your left ribcage is dropped or raised (-10 = very low, +10 = very high, 0 = usual).
+r_ribcage_position	4	Right ribcage up/down?	Shows if your right ribcage is dropped or raised (-10 = very low, +10 = very high, 0 = usual).
+l_breathing_pattern	4	Left side breathing?	Checks how much your left side expands when you breathe (-10 = very tight, +10 = very open, 0 = normal).
+r_breathing_pattern	4	Right side breathing?	Checks how much your right side expands when you breathe (-10 = very tight, +10 = very open, 0 = normal).
+l_thoracic_rotation	4	Left upper back twist?	Shows how easily you twist your upper back left (-10 = very stuck, +10 = very free, 0 = normal).
+r_thoracic_rotation	4	Right upper back twist?	Shows how easily you twist your upper back right (-10 = very stuck, +10 = very free, 0 = normal).
+l_thoracic_tension	4	Left upper back tension?	Checks tightness in your left upper back area (-10 = extremely tight, +10 = very loose, 0 = normal).
+r_thoracic_tension	4	Right upper back tension?	Checks tightness in your right upper back area (-10 = extremely tight, +10 = very loose, 0 = normal).
+l_thoracic_flexibility	4	Left upper back flexibility?	Shows how flexible or stiff your left upper back is (-10 = very stiff, +10 = very bendy, 0 = normal).
+r_thoracic_flexibility	4	Right upper back flexibility?	Shows how flexible or stiff your right upper back is (-10 = very stiff, +10 = very bendy, 0 = normal).
+thoracic_curve	4	Upper back curve?	Looks at how rounded or flat your upper back is (-10 = very flat, +10 = very rounded, 0 = normal).
+spine_curve_coronal	4	Spine side curve?	Shows if spine curves left or right (-10=curves left, +10=curves right, 0=straight).
+l_lumbar_tension	5	Left lower back tension?	Checks if your left lower back feels overly tight or loose (-10 = very tight, +10 = very loose, 0 = normal).
+r_lumbar_tension	5	Right lower back tension?	Checks if your right lower back feels overly tight or loose (-10 = very tight, +10 = very loose, 0 = normal).
+l_lumbar_rotation	5	Left lower back twist?	Shows how easily you twist your lower back to the left (-10 = stuck, +10 = very free, 0 = normal).
+r_lumbar_rotation	5	Right lower back twist?	Shows how easily you twist your lower back to the right (-10 = stuck, +10 = very free, 0 = normal).
+l_lumbar_sidebend	5	Left lower back side-bend?	Checks if bending sideways left at your lower back feels tight or open (-10 = very tight, +10 = very open, 0 = normal).
+r_lumbar_sidebend	5	Right lower back side-bend?	Checks if bending sideways right at your lower back feels tight or open (-10 = very tight, +10 = very open, 0 = normal).
+lumbar_curve	5	Lower back curve?	Shows if your lower back is overly flat or too arched (-10 = very flat, +10 = very arched, 0 = normal).
+l_upper_abs	5	Left upper belly firmness?	Checks if your left upper belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).
+r_upper_abs	5	Right upper belly firmness?	Checks if your right upper belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).
+l_lower_abs	5	Left lower belly firmness?	Checks if your left lower belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).
+r_lower_abs	5	Right lower belly firmness?	Checks if your right lower belly area feels weak or firm (-10 = very weak, +10 = very tight, 0 = normal).
+l_obliques	5	Left side belly strength?	Shows if your left side belly muscles feel weaker or stronger (-10 = very weak, +10 = very tight, 0 = normal).
+r_obliques	5	Right side belly strength?	Shows if your right side belly muscles feel weaker or stronger (-10 = very weak, +10 = very tight, 0 = normal).
+l_si_joint	6	Left back of hip tilt?	Checks if the back part of your left hip area tilts back or forward (-10 = tilted back, +10 = tilted forward, 0 = neutral).
+r_si_joint	6	Right back of hip tilt?	Checks if the back part of your right hip area tilts back or forward (-10 = tilted back, +10 = tilted forward, 0 = neutral).
+l_psis_height	6	Left back hip bone height?	Shows if the left back hip bone is low or high (-10 = very low, +10 = very high, 0 = level).
+r_psis_height	6	Right back hip bone height?	Shows if the right back hip bone is low or high (-10 = very low, +10 = very high, 0 = level).
+l_asis_height	6	Left front hip bone height?	Shows if the left front hip bone is low or high (-10 = very low, +10 = very high, 0 = level).
+r_asis_height	6	Right front hip bone height?	Shows if the right front hip bone is low or high (-10 = very low, +10 = very high, 0 = level).
+l_hip_rotation	7	Left hip turned in/out?	Checks if your left hip is rotated inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).
+r_hip_rotation	7	Right hip turned in/out?	Checks if your right hip is rotated inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).
+l_hip_height	7	Left hip lower/higher?	Shows if your left hip sits lower or higher (-10 = very low, +10 = very high, 0 = level).
+r_hip_height	7	Right hip lower/higher?	Shows if your right hip sits lower or higher (-10 = very low, +10 = very high, 0 = level).
+l_hip_shift	7	Left hip back/forward?	Checks if your left hip shifts backward or forward (-10 = shifted back, +10 = shifted forward, 0 = centered).
+r_hip_shift	7	Right hip back/forward?	Checks if your right hip shifts backward or forward (-10 = shifted back, +10 = shifted forward, 0 = centered).
+l_glute_tone	7	Left backside firmness?	Shows if your left backside (glute) feels weak or extra tight (-10 = very weak, +10 = very firm, 0 = normal).
+r_glute_tone	7	Right backside firmness?	Shows if your right backside (glute) feels weak or extra tight (-10 = very weak, +10 = very firm, 0 = normal).
+l_hip_flexor	7	Left front hip tight/open?	Checks if the front of your left hip is tight or open (-10 = very tight, +10 = very open, 0 = normal).
+r_hip_flexor	7	Right front hip tight/open?	Checks if the front of your right hip is tight or open (-10 = very tight, +10 = very open, 0 = normal).
+l_knee_alignment	8	Left knee angle?	Looks at whether your left knee points inward or outward (-10 = inward, +10 = outward, 0 = straight).
+r_knee_alignment	8	Right knee angle?	Looks at whether your right knee points inward or outward (-10 = inward, +10 = outward, 0 = straight).
+l_knee_rotation	8	Left knee rotation?	Checks if your left knee twists inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).
+r_knee_rotation	8	Right knee rotation?	Checks if your right knee twists inward or outward (-10 = turned in, +10 = turned out, 0 = neutral).
+l_patella_tracking	8	Left kneecap direction?	Shows if your left kneecap is angled inward or outward (-10 = more inside, +10 = more outside, 0 = center).
+r_patella_tracking	8	Right kneecap direction?	Shows if your right kneecap is angled inward or outward (-10 = more inside, +10 = more outside, 0 = center).
+l_knee_hyperext	8	Left knee locked or bent?	Checks if the left knee locks backward or stays slightly bent (-10 = bent, +10 = locked back, 0 = normal).
+r_knee_hyperext	8	Right knee locked or bent?	Checks if the right knee locks backward or stays slightly bent (-10 = bent, +10 = locked back, 0 = normal).
+l_q_angle	8	Left knee angle measure?	Shows if your left knee angle is smaller or bigger (-10 = very small angle, +10 = very large, 0 = typical).
+r_q_angle	8	Right knee angle measure?	Shows if your right knee angle is smaller or bigger (-10 = very small angle, +10 = very large, 0 = typical).
+l_ankle_position	9	Left ankle tilt?	Shows if the left ankle tilts inward or outward (-10 = inward tilt, +10 = outward tilt, 0 = neutral).
+r_ankle_position	9	Right ankle tilt?	Shows if the right ankle tilts inward or outward (-10 = inward tilt, +10 = outward tilt, 0 = neutral).
+l_arch_height	9	Left foot arch low/high?	Checks if your left foot arch is very flat or high (-10 = very flat, +10 = very high, 0 = normal).
+r_arch_height	9	Right foot arch low/high?	Checks if your right foot arch is very flat or high (-10 = very flat, +10 = very high, 0 = normal).
+l_foot_rotation	9	Left foot turned in/out?	Shows if your left foot points inward or outward (-10 = inward, +10 = outward, 0 = straight).
+r_foot_rotation	9	Right foot turned in/out?	Shows if your right foot points inward or outward (-10 = inward, +10 = outward, 0 = straight).
+l_toe_position	9	Left toes shape?	Checks if your left toes curl or shift outward (-10 = curled in, +10 = angled out, 0 = normal).
+r_toe_position	9	Right toes shape?	Checks if your right toes curl or shift outward (-10 = curled in, +10 = angled out, 0 = normal).
+l_heel_callus	9	Left heel thick skin?	Shows if the left heel has built-up skin (-10 = none, +10 = very thick, 0 = normal).
+l_heel_callus_pos	9	Left heel skin inside/outside?	Shows if the left heel callus is more on the inside or outside (-10 = inside, +10 = outside, 0 = center).
+r_heel_callus	9	Right heel thick skin?	Shows if the right heel has built-up skin (-10 = none, +10 = very thick, 0 = normal).
+r_heel_callus_pos	9	Right heel skin inside/outside?	Shows if the right heel callus is more on the inside or outside (-10 = inside, +10 = outside, 0 = center).
+l_forefoot_callus	9	Left forefoot thick skin?	Shows if the ball or toes of the left foot have thick skin (-10 = none, +10 = very thick, 0 = normal).
+l_forefoot_callus_pos	9	Left forefoot callus inside/outside?	Shows if the left forefoot callus is inside or outside (-10 = inside, +10 = outside, 0 = center).
+r_forefoot_callus	9	Right forefoot thick skin?	Shows if the ball or toes of the right foot have thick skin (-10 = none, +10 = very thick, 0 = normal).
+r_forefoot_callus_pos	9	Right forefoot callus inside/outside?	Shows if the right forefoot callus is inside or outside (-10 = inside, +10 = outside, 0 = center).
+l_heel_pressure	9	Left heel pressure?	Checks if your left heel bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+r_heel_pressure	9	Right heel pressure?	Checks if your right heel bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+l_forefoot_pressure	9	Left forefoot pressure?	Checks if your left forefoot bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+r_forefoot_pressure	9	Right forefoot pressure?	Checks if your right forefoot bears less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+l_lateral_pressure	9	Left outer foot pressure?	Shows if your left footâ€™s outer edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+r_lateral_pressure	9	Right outer foot pressure?	Shows if your right footâ€™s outer edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+l_medial_pressure	9	Left inner foot pressure?	Shows if your left footâ€™s inner edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+r_medial_pressure	9	Right inner foot pressure?	Shows if your right footâ€™s inner edge has less or more weight (-10 = very light, +10 = very heavy, 0 = normal).
+l_single_leg	10	Left single-leg balance?	Checks if standing on your left leg feels unstable or steady (-10 = very secure, +10 = very wobbly, 0 = normal).
+r_single_leg	10	Right single-leg balance?	Checks if standing on your right leg feels unstable or steady (-10 = very secure, +10 = very wobbly, 0 = normal).
+l_weight_shift	10	Left side weight shift?	Shows if shifting weight to your left side feels controlled or not (-10 = controlled, +10 = uncontrolled, 0 = normal).
+r_weight_shift	10	Right side weight shift?	Shows if shifting weight to your right side feels controlled or not (-10 = controlled, +10 = uncontrolled, 0 = normal).
+l_arm_raising	10	Left arm raising pattern?	Checks if lifting your left arm is smooth or awkward (-10 = very smooth, +10 = very compensated, 0 = normal).
+r_arm_raising	10	Right arm raising pattern?	Checks if lifting your right arm is smooth or awkward (-10 = very smooth, +10 = very compensated, 0 = normal).
+squat_symmetry	10	Squat pattern left/right?	Shows if squatting leans left or right (-10 = heavily left, +10 = heavily right, 0 = balanced).
+gait_symmetry	10	Walking pattern left/right?	Checks if your walk favors one side (-10 = left side, +10 = right side, 0 = balanced).
+l_upper_pain	11	Left upper body discomfort?	Shows if the left upper area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).
+r_upper_pain	11	Right upper body discomfort?	Shows if the right upper area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).
+l_lower_pain	11	Left lower body discomfort?	Shows if the left lower area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).
+r_lower_pain	11	Right lower body discomfort?	Shows if the right lower area feels mild or severe discomfort (-10 = none, +10 = very bad, 0 = normal).
+
+
+Yoga Moves:
+
+Number	Name	Side	Difficulty	How to Do It
+1	Tadasana	Both	Easy	Stand with feet hip-distance apart, distribute weight evenly, engage the leg muscles, lengthen the spine, and relax the shoulders.
+2	Samasthiti	Both	Easy	Stand upright with feet together or hip-width apart, ensuring even weight distribution; relax the arms at the sides.
+3	Uttanasana	Both	Moderate	From standing, hinge at the hips to fold forward while keeping the spine long; allow the upper body to relax toward the legs, bending the knees as needed.
+4	Utkatasana	Both	Moderate	Stand with feet hip-width apart; bend the knees and lower the hips as if sitting in an imaginary chair while extending the arms upward.
+5	Malasana	Both	Moderate	Stand with feet slightly wider than hip-width; squat down deeply with heels on the floor if possible. Bring your palms together at your chest and press your elbows against your inner thighs to help open the hips.
+6	Padmasana	Both	Intermediate	Sit on the floor with your legs extended. Slowly bend one knee and place its foot on the opposite thigh; repeat with the other leg so that each foot rests on the opposite thigh.
+7	Sukhasana	Both	Easy	Sit cross-legged on the floor with your spine upright and your hands resting on your knees or in your lap. Adjust your legs so that the weight is distributed evenly.
+8	Vajrasana	Both	Easy	Kneel on the floor with your knees together. Sit back gently on your heels with your thighs resting on your calves and your spine erect.
+9	Virasana	Both	Moderate	Kneel with your knees together, then slide your buttocks down between your feet so that you sit on the floor. Keep your legs folded to the sides, with the tops of your feet flat on the ground.
+10	Balasana	Both	Easy	Begin on your knees, then sit back onto your heels. Lower your torso forward to rest on the floor with your forehead touching the mat. Extend your arms forward or allow them to rest alongside your body.
+11	Setu Bandhasana	Both	Moderate	Lie on your back with knees bent and feet flat on the floor, hip-width apart. Press into your feet to lift your hips off the floor, engaging the glutes and core while keeping your shoulders and head on the mat.
+12	Chakrasana	Both	Advanced	Lie on your back, bend your knees, and place your hands beside your ears. Press into your hands and feet to lift your body into a backbend, forming an arch with your spine.
+13	Matsyasana	Both	Intermediate	Lie on your back with your legs extended. Slide your hands under your hips and press them into the floor as you lift your chest upward, arching your back. Optionally, let your head rest lightly on the floor or on a small support.
+14	Navasana	Both	Intermediate	Sit on the floor with your legs extended. Lean back slightly and lift your feet off the ground to form a V-shape with your torso and legs. Extend your arms forward parallel to the floor.
+15	Bhujangasana	Both	Moderate	Lie on your stomach with your hands placed under your shoulders. Press into your hands to lift your chest off the floor, keeping your elbows slightly bent.
+16	Shalabhasana	Both	Intermediate	Lie face down with your arms alongside your body. Lift your head, chest, arms, and legs off the floor simultaneously using a controlled motion.
+17	Dhanurasana	Both	Advanced	Lie on your stomach, bend your knees, and reach back to grasp your ankles. Inhale to lift your chest and legs off the floor simultaneously, creating a bow shape with your body.
+18	Ustrasana	Both	Advanced	Kneel on the mat with your knees hip-width apart. Place your hands on your lower back, then gently arch your spine to lift your chest upward. Optionally, reach back to grasp your heels.
+19	Marjarasana	Both	Easy	Start on your hands and knees. On an exhale, round your spine upward by tucking your chin toward your chest and drawing your belly in, creating a gentle arch in your back.
+20	Bitilasana	Both	Easy	From a hands-and-knees position, inhale and drop your belly toward the mat while lifting your head and tailbone upward to form a gentle arch in your spine.
+21	Adho Mukha Shvanasana	Both	Moderate	Begin on your hands and knees, then lift your hips upward and back, extending your legs to form an inverted V-shape. Press firmly into the mat with both hands.
+22	Urdhva Mukha Shvanasana	Both	Intermediate	Lie on your stomach. Place your palms flat on the mat beside your ribs. On an inhale, press into your hands, straightening your arms fully to lift your chest high while keeping your pelvis and legs grounded. Let your shoulders roll slightly back.
+23	Phalakasana	Both	Moderate	Begin in a push-up position with your hands directly under your shoulders and legs extended back. Keep your body in a straight line from head to heels.
+24	Chaturanga Dandasana	Both	Intermediate	Start in a high plank position. Slowly lower your body by bending your elbows, keeping them tucked close to your sides, until your upper arms are parallel to the floor.
+25	Sirsasana	Both	Advanced	Interlace your fingers and place your forearms on the mat to form a stable base. Rest the crown of your head on the mat between your hands and gradually lift your legs, extending them upward into an inversion.
+26	Sarvangasana	Both	Advanced	Lie on your back, then lift your legs and hips by supporting your lower back with your hands and your shoulders on the mat. Hold the pose steadily.
+27	Halasana	Both	Advanced	From Sarvangasana, slowly lower your legs over your head until your toes (or feet) gently touch the floor behind you, keeping your back flat and your shoulders stable.
+28	Karnapidasana	Both	Advanced	From Halasana, gently bring your knees down toward your ears, pressing them softly against your head while keeping your back on the mat.
+29	Viparita Karani	Both	Easy	Sit next to a wall and lie on your back, then extend your legs up along the wall. Relax your arms at your sides.
+30	Shavasana	Both	Easy	Lie flat on your back with your arms comfortably at your sides and legs slightly apart. Close your eyes and allow your body to relax completely.
+31	Bakasana	Both	Advanced	Squat down and place your hands firmly on the mat in front of you. Lean forward, shifting your weight onto your hands while tucking your knees onto the backs of your upper arms. Gradually lift your feet off the ground to balance.
+32	Tolasana	Both	Advanced	From a low squat, place your hands on the mat in front of you. Lean forward and shift your weight onto your hands, then carefully extend your legs behind you so that your body forms a horizontal line.
+33	Mayurasana	Both	Expert	Place your hands on the mat with fingers spread wide. Lean forward and balance your body on your forearms while lifting your legs so that your torso is parallel to the floor.
+34	Pincha Mayurasana	Both	Expert	Kneel on the mat and place your forearms on the floor with fingers interlaced. Lift your hips and gradually extend your legs upward to enter a forearm stand.
+35	Adho Mukha Vrksasana	Both	Expert	Start in a downward dog pose. Gradually shift your weight forward and kick up into a handstand. Extend your legs fully upward while keeping your arms straight and your core engaged.
+36	Kurmasana	Both	Advanced	Sit with your legs extended and slightly apart. Inhale to lengthen the spine, then exhale as you fold forward slowly, sliding your arms underneath your legs until your forehead nearly touches the floor. Tuck your head and relax your shoulders.
+37	Upavistha Konasana	Both	Intermediate	Sit on the floor with your legs spread wide apart. Keep your back straight and hinge forward from the hips, reaching your hands toward your feet or the floor.
+38	Padahastasana	Both	Moderate	Stand with your feet together or slightly apart. Hinge at the hips and fold forward, reaching down to grasp your feet or ankles while keeping the spine long and controlled.
+39	Uttana Padasana	Both	Intermediate	Stand upright with your feet together. Hinge at the hips and extend one leg forward while reaching down with both hands to grasp the extended foot. Keep the spine elongated and the supporting leg engaged. Alternate sides as needed.
+40	Paschimottanasana	Both	Moderate	Sit on the floor with your legs extended straight in front of you. Inhale to lengthen your spine, then exhale as you fold forward from the hips, reaching toward your feet while keeping the back as straight as possible.
+41	Trikonasana	Right	Moderate	Stand with feet wide apart; position the right foot forward and the left foot turned slightly outward. Extend your arms horizontally, then hinge at the hip to lower your right hand onto your right shin or a block while extending your left arm upward. Rotate your torso gently and gaze upward toward your left hand.
+42	Trikonasana	Left	Moderate	Stand with feet wide apart; position the left foot forward and the right foot turned slightly outward. Extend your arms horizontally, then hinge at the hip to lower your left hand onto your left shin or a block while extending your right arm upward. Gently rotate your torso and gaze upward toward your right hand.
+43	Parivritta Trikonasana	Right	Intermediate	Stand with the right foot forward and the left foot turned out. Rotate your torso to the right, reaching your left hand toward the outer edge of your right foot (or a block) while extending your right arm upward. Initiate the twist from the hips.
+44	Parivritta Trikonasana	Left	Intermediate	Stand with the left foot forward and the right foot turned out. Rotate your torso to the left, reaching your right hand toward the outer edge of your left foot (or a block) while extending your left arm upward. Initiate the twist from the hips.
+45	Virabhadrasana I	Right	Moderate	Stand with your right foot forward and left foot turned slightly out. Bend your right knee so it is directly above your ankle while keeping the left leg straight and strong. Raise your arms overhead, square your hips forward, and maintain an upright posture.
+46	Virabhadrasana I	Left	Moderate	Stand with your left foot forward and right foot back. Bend the left knee so it is directly above the ankle, square your hips forward, and raise your arms overhead with palms facing each other. Gaze upward.
+47	Virabhadrasana II	Right	Moderate	Stand with your right foot forward and left foot turned out. Bend the right knee so it is directly above the ankle. Extend your arms horizontallyâ€”with the right arm forward and the left arm backâ€”and gaze over the right hand.
+48	Virabhadrasana II	Left	Moderate	Stand with your left foot forward and right foot turned out. Bend the left knee so it is directly above the ankle. Extend your arms horizontallyâ€”with the left arm forward and the right arm backâ€”and gaze over the left hand.
+49	Virabhadrasana III	Right	Intermediate	Shift your weight onto your right leg. Hinge forward at the hips while extending your left leg back and reaching your arms forward, forming a straight line from your head to the extended left foot.
+50	Virabhadrasana III	Left	Intermediate	Shift your weight onto your left leg. Hinge forward at the hips while extending your right leg back and reaching your arms forward, creating a straight line from your head to the extended right foot.
+51	Ardha Chandrasana	Right	Intermediate	From Tadasana, shift your weight onto the right leg. Extend the left leg straight out to the side. Hinge at the right hip and lean toward the right, simultaneously raising the right arm straight upward while the left arm may rest lightly on the right leg or on a block.
+52	Ardha Chandrasana	Left	Intermediate	Begin in Tadasana, then shift your weight onto the left leg. Extend the right leg straight out to the side. Hinge at the left hip to lean toward the left, lifting the left arm straight upward while the right arm rests along the right leg or on a block.
+53	Parsvakonasana	Right	Moderate	Stand with your feet wide apart. Place the right foot forward and bend the right knee, keeping it aligned over the ankle. Extend the right arm upward and lower the right hand to the outer edge of the right foot (or a block) while the left arm extends overhead toward the back.
+54	Parsvakonasana	Left	Moderate	Stand with your feet wide apart. Position the left foot forward, bending the left knee so it stays over the ankle. Lower the left hand onto the outer edge of the left foot (or a block) while extending the right arm upward over the back.
+55	Parivritta Parsvakonasana	Right	Intermediate	From a right Parsvakonasana, rotate your torso further by bringing your left hand across to the outside of your right foot (or to a block) while extending your right arm upward. Initiate the twist from the hips while keeping the right knee bent.
+56	Parivritta Parsvakonasana	Left	Intermediate	Stand with your left foot forward and right foot turned out. Bend the left knee while keeping the right leg straight. Rotate your torso to the left by bringing your right hand across to the outer edge of your left foot (or to a block) while extending your left arm upward. Initiate the twist from the hips.
+57	Parighasana	Right	Moderate	Stand with your feet together or slightly apart. Inhale to raise your right arm overhead, then exhale and lean to the right, allowing the right side of your body to lengthen. Let your right arm extend upward while your left hand rests by your side or lightly on your hip.
+58	Parighasana	Left	Moderate	Stand with your feet together or slightly apart. Inhale to raise your left arm overhead, then exhale and lean to the left, allowing the left side of your body to lengthen. Let your left arm extend upward while your right hand rests by your side or on your hip.
+59	Anjaneyasana	Right	Moderate	Step forward with your right foot into a lunge, keeping the left knee on the mat. Ensure your right knee is directly above your ankle. Inhale, raise your arms overhead, and gently arch the upper body while keeping the hips squared.
+60	Anjaneyasana	Left	Moderate	Step forward with your left foot into a lunge, keeping the right knee on the mat. Ensure your left knee is directly above your ankle. Inhale, raise your arms overhead, and gently arch the upper body while keeping the hips squared.
+61	Hanumanasana	Right	Advanced	From a kneeling lunge, extend the right leg forward while sliding the left leg back gradually to achieve a full split. Keep the hips squared and the torso upright.
+62	Hanumanasana	Left	Advanced	From a kneeling lunge, extend the left leg forward while sliding the right leg back to form a full split. Ensure the hips remain squared and the torso stays upright.
+63	Eka Pada Rajakapotasana	Right	Intermediate	Begin in a kneeling lunge with the right leg forward. Bend the right knee and draw the right foot toward the left hip while extending the left leg back. Optionally, incorporate a gentle backbend by lifting the chest.
+64	Eka Pada Rajakapotasana	Left	Intermediate	From a kneeling lunge, bend the left knee and bring the left foot toward the right hip while extending the right leg back. Optionally, lift the chest into a gentle backbend for added stretch.
+65	Gomukhasana	Right	Intermediate	Sit on the floor with legs extended. Cross the right leg over the left so that the right knee stacks above the left, bringing the right foot to rest near the left hip. Reach the left arm over the right shoulder and the right arm behind the back to clasp hands or hold a strap.
+66	Gomukhasana	Left	Intermediate	Sit on the floor with legs extended. Cross the left leg over the right so that the left knee stacks above the right, bringing the left foot near the right hip. Reach the right arm over the left shoulder and the left arm behind your back to clasp hands or hold a strap.
+67	Bharadvajasana	Right	Moderate	Sit in a comfortable position with legs extended or crossed. For the right variation, keep your right leg extended and, if needed, slightly bend the left leg. Place your left hand on your right knee and your right hand on the floor behind you. Twist your torso to the right.
+68	Bharadvajasana	Left	Moderate	Sit comfortably with legs extended or crossed. For the left variation, keep your left leg extended. Place your right hand on your left knee and your left hand on the floor behind you. Twist your torso to the left.
+69	Marichyasana I	Right	Intermediate	Sit on the floor with legs extended. Bend your right knee and place the right foot flat near the left thigh while keeping the left leg extended. Inhale to lengthen the spine, then exhale and twist to the right by bringing the left elbow to the outside of the right knee while gazing over the right shoulder.
+70	Marichyasana I	Left	Intermediate	Sit on the floor with legs extended. Bend your left knee and place the left foot flat near the right thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and twist to the left by bringing the right elbow to the outside of the left knee while gazing over the left shoulder.
+71	Marichyasana III	Right	Intermediate	Sit on the floor with legs extended. Bend your right knee and place the right foot on the floor near the outer side of the left thigh while keeping the left leg extended. Inhale to lengthen the spine, then exhale and twist to the right. Bring your left elbow to the outside of your right knee while reaching your right hand behind your back.
+72	Marichyasana III	Left	Intermediate	Sit on the floor with legs extended. Bend your left knee and place the left foot on the floor near the outer side of the right thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and twist to the left. Bring your right elbow to the outside of your left knee while reaching your left hand behind your back.
+73	Ardha Matsyendrasana	Right	Intermediate	Sit on the floor with legs extended. Bend your right knee and place the right foot on the floor near the outside of the left thigh. Bend the left knee and bring the left foot close to the right hip. Inhale to lengthen the spine, then exhale and twist to the right, using your left elbow against the outside of your right knee while your right hand rests behind you.
+74	Ardha Matsyendrasana	Left	Intermediate	Sit on the floor with legs extended. Bend your left knee and place the left foot on the floor near the outside of the right thigh. Bend the right knee and bring the right foot close to the left hip. Inhale, then exhale and twist to the left, bringing your right elbow to the outside of your left knee while your left hand rests behind you.
+75	Parivrtta Janu Sirsasana	Right	Intermediate	Sit on the floor with both legs extended. Bend the right knee and draw the right foot toward the inner left thigh. Inhale to lengthen the spine, then exhale and fold forward over the extended left leg while introducing a gentle twist to the right. Reach the right arm around the right leg and extend the left arm across the body.
+76	Parivrtta Janu Sirsasana	Left	Intermediate	Sit on the floor with both legs extended. Bend the left knee and draw the left foot toward the inner right thigh. Inhale to lengthen the spine, then exhale and fold forward over the extended right leg while incorporating a gentle twist to the left. Reach the left arm around the left leg and extend the right arm across the body.
+77	Janu Sirsasana	Right	Moderate	Sit on the floor with both legs extended. Bend the right knee and bring the right foot to rest near the inner left thigh. Inhale to lengthen the spine, then exhale and fold forward over the extended left leg.
+78	Janu Sirsasana	Left	Moderate	Sit on the floor with both legs extended. Bend the left knee and bring the left foot to rest near the inner right thigh. Inhale to lengthen the spine, then exhale and fold forward over the extended right leg.
+79	Triang Mukhaikapada Paschimottanasana	Right	Intermediate	Sit on the floor with both legs extended. Bend the right knee so that the right foot is placed against the inner thigh of the left leg. Inhale to lengthen the spine, then exhale and fold forward over the left leg, reaching toward the right foot with the right hand while the left hand supports the left leg.
+80	Triang Mukhaikapada Paschimottanasana	Left	Intermediate	Sit on the floor with both legs extended. Bend the left knee so that the left foot is placed against the inner thigh of the right leg. Inhale to lengthen the spine, then exhale and fold forward over the right leg, reaching toward the left foot with the left hand while the right hand supports the right leg.
+81	Vasisthasana	Right	Intermediate	Begin in a forearm plank position. Shift your weight onto your right forearm and the outer edge of your right foot. Extend your left leg fully, keeping it either stacked on top of your right or slightly lifted. Optionally, raise your left arm for an added challenge.
+82	Vasisthasana	Left	Intermediate	Assume a side plank position on your left forearm. Shift your weight onto your left forearm and the outer edge of your left foot. Extend your right leg fully, either stacking it over your left or keeping it slightly raised. Optionally, raise your right arm to intensify the pose.
+83	Utthita Hasta Padangusthasana	Right	Advanced	Stand in Tadasana and shift your weight onto your right leg. Lift your right leg and, using a yoga strap if necessary, grasp your right big toe with your right hand while extending the leg forward. Let your left hand rest on your hip for balance.
+84	Utthita Hasta Padangusthasana	Left	Advanced	From Tadasana, shift your weight onto your left leg. Lift your left leg and, using a yoga strap if needed, grasp your left big toe with your left hand while extending the leg forward. Allow your right hand to rest on your hip.
+85	Natarajasana	Right	Advanced	Stand in Tadasana and shift your weight onto your right leg. Bend your right knee and, with your right hand, reach back to grasp your right ankle. Simultaneously, extend your left arm forward for balance as you gently arch your torso to open your chest.
+86	Natarajasana	Left	Advanced	Stand in Tadasana and shift your weight onto your left leg. Bend your left knee and reach your left hand back to grasp your left ankle while extending your right arm forward for balance.
+87	Vrksasana	Right	Moderate	Stand in Tadasana and shift your weight onto your right leg. Place your right foot on your inner right calf or thigh (avoiding the knee). Bring your hands into prayer at your chest and focus your gaze on a fixed point.
+88	Vrksasana	Left	Moderate	Stand in Tadasana and shift your weight onto your left leg. Place your left foot on your inner left calf or thigh (avoiding the knee). Bring your hands together in prayer at your chest and fix your gaze forward.
+89	Parsva Bakasana	Right	Expert	Start in a squat with your feet wide apart. Place your hands on the mat, then shift your weight onto your right hand while twisting your torso to the right. Simultaneously, lift your legs off the ground to maintain the twist, balancing on your right arm.
+90	Parsva Bakasana	Left	Expert	Begin in a squat with your feet wide apart. Place your hands on the mat, then shift your weight onto your left hand while twisting your torso to the left. Lift your legs off the ground as you maintain the twist, balancing on your left arm.
+91	Visvamitrasana	Right	Expert	Stand in Tadasana. Shift your weight onto your right leg and pivot your right foot slightly outward. Inhale and as you exhale, twist your torso to the right, bringing your left hand to rest on your right thigh (or near the right knee) while extending your right arm either overhead or behind you.
+92	Visvamitrasana	Left	Expert	Stand in Tadasana. Shift your weight onto your left leg and pivot your left foot slightly outward. Inhale and as you exhale, twist your torso to the left, bringing your right hand to rest on your left thigh (or near the left knee) while extending your left arm either overhead or behind you.
+93	Parivrtta Surya Yantrasana	Right	Expert	Assume a stable stance or kneeling position. With the right leg as the pivot, twist your torso to the right. Extend your left leg while simultaneously reaching your right arm upward and bringing your left arm behind your right leg.
+94	Parivrtta Surya Yantrasana	Left	Expert	From a stable or kneeling position, use the left leg as the pivot. Twist your torso to the left by extending your right leg and bringing your left arm upward while reaching your right arm behind the left leg.
+95	Mandalasana	Right	Moderate	Sit on the floor with your legs crossed. For the right variation, lean slightly to the right while twisting your torso so that the right shoulder moves forward and the left shoulder recedes. Your hands may rest on your knees or in your lap to deepen the twist.
+96	Mandalasana	Left	Moderate	Sit comfortably with your legs crossed. For the left variation, lean slightly to the left so that the left shoulder moves forward and the right shoulder recedes. Allow your hands to rest on your knees or in your lap to facilitate the twist.
+97	Purna Matsyendrasana	Right	Advanced	Sit on the floor with legs extended. Bend your right knee and place the right foot on the outside of the left thigh while keeping the left leg extended. Inhale to lengthen the spine, then exhale and twist to the right, placing your left elbow on the outside of your right knee and your right hand behind you.
+98	Purna Matsyendrasana	Left	Advanced	Sit with your legs extended. Bend your left knee and place the left foot on the outside of the right thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and twist to the left, placing your right elbow on the outside of your left knee while your left hand rests behind you.
+99	Akarna Dhanurasana	Right	Advanced	Lie on your stomach. Bend your right knee and reach back with your right hand to grasp your right foot, drawing it toward your right buttock. Optionally, lift your chest slightly to deepen the stretch on the right side.
+100	Akarna Dhanurasana	Left	Advanced	Lie on your stomach. Bend your left knee and reach back with your left hand to grasp your left foot, drawing it toward your left buttock. Optionally, lift your chest gently to enhance the stretch on the left side.
+101	Skandasana	Right	Intermediate	From Tadasana, step wide to the right, bend the right knee deeply while keeping the left leg straight, and lower the hips toward the right knee. Keep the right foot flat on the ground.
+102	Skandasana	Left	Intermediate	From Tadasana, step wide to the left, bend the left knee deeply while keeping the right leg straight, and lower the hips toward the left knee. Keep the left foot flat on the ground.
+103	Eka Pada Koundinyasana I	Right	Expert	From a low lunge, place your right hand on the mat near your right foot. Shift your weight onto your right arm while extending your left leg parallel to the floor, and twist your torso slightly to counterbalance.
+104	Eka Pada Koundinyasana I	Left	Expert	From a low lunge, place your left hand on the mat near your left foot. Shift your weight onto your left arm while extending your right leg parallel to the floor, maintaining a slight twist in the torso for balance.
+105	Eka Pada Koundinyasana II	Right	Expert	From a crouched position, place your right hand on the mat and lift your body while extending both legsâ€”using the right side as the pivot and extending the left leg outward. Maintain a twist in the torso for balance.
+106	Eka Pada Koundinyasana II	Left	Expert	From a crouched position, place your left hand on the mat and lift your body while extending both legsâ€”using the left side as the pivot and extending the right leg outward. Maintain a twist in the torso for balance.
+107	Durvasasana	Right	Expert	From a seated position, lean to the right and place your right hand on the mat for support. Wrap your legs if possible and balance on your right hand while engaging your core to lift your body, creating an advanced arm balance with a twist to the right.
+108	Durvasasana	Left	Expert	From a seated position, lean to the left and place your left hand on the mat for support. Wrap your legs if possible and balance on your left hand while engaging your core to lift your body into an advanced arm balance with a twist to the left.
+109	Vatayanasana	Right	Moderate	Stand in Tadasana, shift your weight onto your right leg, and with your right hand on your hip, slowly bend to the right, extending your left arm overhead to create a deep lateral stretch.
+110	Vatayanasana	Left	Moderate	Stand in Tadasana, shift your weight onto your left leg, and with your left hand on your hip, slowly bend to the left, extending your right arm overhead to create a deep lateral stretch.
+111	Vamadevasana	Right	Moderate	Lie on your stomach with your legs extended. In this right variation, gently lift your right leg off the mat while keeping your upper body relaxed and your chest low. Maintain a subtle arch in your lower back.
+112	Vamadevasana	Left	Moderate	Lie prone with your legs extended. For the left variation, slowly raise your left leg while keeping your upper body stable and your head neutral, allowing a slight lift in the lower back.
+113	Ardha Baddha Padmottanasana	Right	Advanced	Sit with legs extended. Bend your right knee and place the right foot on the inner thigh while keeping the left leg extended. Inhale to lengthen the spine, then exhale and fold forward over the left leg.
+114	Ardha Baddha Padmottanasana	Left	Advanced	Sit with legs extended. Bend your left knee and bring the left foot to rest on the inner thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and fold forward over the right leg.
+115	Ardha Baddha Padma Paschimottanasana	Right	Advanced	Sit with legs extended. Bring the right foot into a bound half-lotus position on the inner thigh while keeping the left leg extended. Inhale, then exhale and fold forward over the left leg with a gentle twist emphasizing the right side.
+116	Ardha Baddha Padma Paschimottanasana	Left	Advanced	Sit with legs extended. Bring the left foot into a bound half-lotus position on the inner thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and fold forward over the right leg with a gentle twist emphasizing the left side.
+117	Parivrtta Ardha Chandrasana	Right	Advanced	From Tadasana, shift your weight onto your right leg. Hinge at the right hip and lean to the right while twisting your torso so that your left arm crosses over your body.
+118	Parivrtta Ardha Chandrasana	Left	Advanced	From Tadasana, shift your weight onto your left leg. Hinge at the left hip and lean to the left while twisting your torso so that your right arm crosses over your body.
+119	Supta Padangusthasana	Right	Moderate	Lie on your back with your legs extended. Bend your right knee and loop a yoga strap around the arch of your right foot. Extend your right leg upward while keeping the left leg grounded.
+120	Supta Padangusthasana	Left	Moderate	Lie on your back with your legs extended. Bend your left knee and loop a yoga strap around the arch of your left foot. Extend your left leg upward while keeping the right leg grounded.
+121	Supta Matsyendrasana	Right	Easy	Lie on your back, bend your knees, and draw them into your chest. Then, gently allow your knees to drop to the right side while keeping your shoulders flat on the mat. Extend your arms out to the sides for support.
+122	Supta Matsyendrasana	Left	Easy	Lie on your back with your knees bent. Draw your knees into your chest and then slowly let them drop to the left side while turning your head to the right to intensify the twist.
+123	Parivrtta Utkatasana	Right	Intermediate	From Tadasana (Mountain Pose), shift your weight onto your right leg. In Utkatasana (Chair Pose), bend the right knee and twist your torso to the right by bringing your left elbow toward your right knee while extending your right arm backward.
+124	Parivrtta Utkatasana	Left	Intermediate	From Tadasana, shift your weight onto your left leg. Enter Utkatasana by bending the left knee and twist your torso to the left by bringing your right elbow toward your left knee while extending your left arm backward.
+125	Parivrtta Bakasana	Right	Expert	Begin in Bakasana (Crow Pose). Shift your weight onto your right arm and, while maintaining balance, twist your torso to the right. Extend your right arm upward as you guide your left arm for counterbalance.
+126	Parivrtta Bakasana	Left	Expert	From Bakasana, shift your weight onto your left arm and twist your torso to the left. Extend your left arm upward for balance while the right arm supports the twist.
+127	Parivrtta Paschimottanasana	Right	Intermediate	Sit on the floor with your legs extended. Bend the right knee and draw the right foot toward the inner thigh, keeping the left leg extended. Inhale to lengthen the spine, then exhale as you twist to the right, wrapping your left arm around the right leg and placing your right hand behind you.
+128	Parivrtta Paschimottanasana	Left	Intermediate	Sit on the floor with your legs extended. Bend the left knee and bring the left foot toward the inner thigh while keeping the right leg extended. Inhale to lengthen the spine, then exhale and twist to the left, wrapping your right arm around the left leg and placing your left hand behind you.

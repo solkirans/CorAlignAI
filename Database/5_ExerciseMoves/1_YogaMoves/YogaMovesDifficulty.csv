@@ -1,0 +1,129 @@
+Number,Name,Side,Difficulty
+1,Tadasana,Both,Easy
+2,Samasthiti,Both,Easy
+3,Uttanasana,Both,Moderate
+4,Utkatasana,Both,Moderate
+5,Malasana,Both,Moderate
+6,Padmasana,Both,Intermediate
+7,Sukhasana,Both,Easy
+8,Vajrasana,Both,Easy
+9,Virasana,Both,Moderate
+10,Balasana,Both,Easy
+11,Setu Bandhasana,Both,Moderate
+12,Chakrasana,Both,Advanced
+13,Matsyasana,Both,Intermediate
+14,Navasana,Both,Intermediate
+15,Bhujangasana,Both,Moderate
+16,Shalabhasana,Both,Intermediate
+17,Dhanurasana,Both,Advanced
+18,Ustrasana,Both,Advanced
+19,Marjarasana,Both,Easy
+20,Bitilasana,Both,Easy
+21,Adho Mukha Shvanasana,Both,Moderate
+22,Urdhva Mukha Shvanasana,Both,Intermediate
+23,Phalakasana,Both,Moderate
+24,Chaturanga Dandasana,Both,Intermediate
+25,Sirsasana,Both,Advanced
+26,Sarvangasana,Both,Advanced
+27,Halasana,Both,Advanced
+28,Karnapidasana,Both,Advanced
+29,Viparita Karani,Both,Easy
+30,Shavasana,Both,Easy
+31,Bakasana,Both,Advanced
+32,Tolasana,Both,Advanced
+33,Mayurasana,Both,Expert
+34,Pincha Mayurasana,Both,Expert
+35,Adho Mukha Vrksasana,Both,Expert
+36,Kurmasana,Both,Advanced
+37,Upavistha Konasana,Both,Intermediate
+38,Padahastasana,Both,Moderate
+39,Uttana Padasana,Both,Intermediate
+40,Paschimottanasana,Both,Moderate
+41,Trikonasana,Right,Moderate
+42,Trikonasana,Left,Moderate
+43,Parivritta Trikonasana,Right,Intermediate
+44,Parivritta Trikonasana,Left,Intermediate
+45,Virabhadrasana I,Right,Moderate
+46,Virabhadrasana I,Left,Moderate
+47,Virabhadrasana II,Right,Moderate
+48,Virabhadrasana II,Left,Moderate
+49,Virabhadrasana III,Right,Intermediate
+50,Virabhadrasana III,Left,Intermediate
+51,Ardha Chandrasana,Right,Intermediate
+52,Ardha Chandrasana,Left,Intermediate
+53,Parsvakonasana,Right,Moderate
+54,Parsvakonasana,Left,Moderate
+55,Parivritta Parsvakonasana,Right,Intermediate
+56,Parivritta Parsvakonasana,Left,Intermediate
+57,Parighasana,Right,Moderate
+58,Parighasana,Left,Moderate
+59,Anjaneyasana,Right,Moderate
+60,Anjaneyasana,Left,Moderate
+61,Hanumanasana,Right,Advanced
+62,Hanumanasana,Left,Advanced
+63,Eka Pada Rajakapotasana,Right,Intermediate
+64,Eka Pada Rajakapotasana,Left,Intermediate
+65,Gomukhasana,Right,Intermediate
+66,Gomukhasana,Left,Intermediate
+67,Bharadvajasana,Right,Moderate
+68,Bharadvajasana,Left,Moderate
+69,Marichyasana I,Right,Intermediate
+70,Marichyasana I,Left,Intermediate
+71,Marichyasana III,Right,Intermediate
+72,Marichyasana III,Left,Intermediate
+73,Ardha Matsyendrasana,Right,Intermediate
+74,Ardha Matsyendrasana,Left,Intermediate
+75,Parivrtta Janu Sirsasana,Right,Intermediate
+76,Parivrtta Janu Sirsasana,Left,Intermediate
+77,Janu Sirsasana,Right,Moderate
+78,Janu Sirsasana,Left,Moderate
+79,Triang Mukhaikapada Paschimottanasana,Right,Intermediate
+80,Triang Mukhaikapada Paschimottanasana,Left,Intermediate
+81,Vasisthasana,Right,Intermediate
+82,Vasisthasana,Left,Intermediate
+83,Utthita Hasta Padangusthasana,Right,Advanced
+84,Utthita Hasta Padangusthasana,Left,Advanced
+85,Natarajasana,Right,Advanced
+86,Natarajasana,Left,Advanced
+87,Vrksasana,Right,Moderate
+88,Vrksasana,Left,Moderate
+89,Parsva Bakasana,Right,Expert
+90,Parsva Bakasana,Left,Expert
+91,Visvamitrasana,Right,Expert
+92,Visvamitrasana,Left,Expert
+93,Parivrtta Surya Yantrasana,Right,Expert
+94,Parivrtta Surya Yantrasana,Left,Expert
+95,Mandalasana,Right,Moderate
+96,Mandalasana,Left,Moderate
+97,Purna Matsyendrasana,Right,Advanced
+98,Purna Matsyendrasana,Left,Advanced
+99,Akarna Dhanurasana,Right,Advanced
+100,Akarna Dhanurasana,Left,Advanced
+101,Skandasana,Right,Intermediate
+102,Skandasana,Left,Intermediate
+103,Eka Pada Koundinyasana I,Right,Expert
+104,Eka Pada Koundinyasana I,Left,Expert
+105,Eka Pada Koundinyasana II,Right,Expert
+106,Eka Pada Koundinyasana II,Left,Expert
+107,Durvasasana,Right,Expert
+108,Durvasasana,Left,Expert
+109,Vatayanasana,Right,Moderate
+110,Vatayanasana,Left,Moderate
+111,Vamadevasana,Right,Moderate
+112,Vamadevasana,Left,Moderate
+113,Ardha Baddha Padmottanasana,Right,Advanced
+114,Ardha Baddha Padmottanasana,Left,Advanced
+115,Ardha Baddha Padma Paschimottanasana,Right,Advanced
+116,Ardha Baddha Padma Paschimottanasana,Left,Advanced
+117,Parivrtta Ardha Chandrasana,Right,Advanced
+118,Parivrtta Ardha Chandrasana,Left,Advanced
+119,Supta Padangusthasana,Right,Moderate
+120,Supta Padangusthasana,Left,Moderate
+121,Supta Matsyendrasana,Right,Easy
+122,Supta Matsyendrasana,Left,Easy
+123,Parivrtta Utkatasana,Right,Intermediate
+124,Parivrtta Utkatasana,Left,Intermediate
+125,Parivrtta Bakasana,Right,Expert
+126,Parivrtta Bakasana,Left,Expert
+127,Parivrtta Paschimottanasana,Right,Intermediate
+128,Parivrtta Paschimottanasana,Left,Intermediate

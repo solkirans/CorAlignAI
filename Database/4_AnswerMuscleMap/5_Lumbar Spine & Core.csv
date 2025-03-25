@@ -1,0 +1,39 @@
+muscle_id,muscle_name,l_lumbar_tension,r_lumbar_tension,l_lumbar_rotation,r_lumbar_rotation,l_lumbar_sidebend,r_lumbar_sidebend,lumbar_curve,l_upper_abs,r_upper_abs,l_lower_abs,r_lower_abs,l_obliques,r_obliques
+108,Rectus Abdominis (Left),-4,0,2,-2,2,-2,8,-8,0,-8,0,-2,0
+109,Rectus Abdominis (Right),0,-4,-2,2,-2,2,8,0,-8,0,-8,0,-2
+110,External Oblique (Left),-3,0,6,-6,5,-5,4,-3,0,-3,0,-8,0
+111,External Oblique (Right),0,-3,-6,6,-5,5,4,0,-3,0,-3,0,-8
+112,Internal Oblique (Left),-3,0,6,-6,5,-5,4,-3,0,-3,0,-8,0
+113,Internal Oblique (Right),0,-3,-6,6,-5,5,4,0,-3,0,-3,0,-8
+114,Transversus Abdominis (Left),-2,0,3,-3,3,-3,5,-4,0,-4,0,-5,0
+115,Transversus Abdominis (Right),0,-2,-3,3,-3,3,5,0,-4,0,-4,0,-5
+116,Diaphragm (Left),-2,0,1,-1,1,-1,3,-2,0,-2,0,-1,0
+117,Diaphragm (Right),0,-2,-1,1,-1,1,3,0,-2,0,-2,0,-1
+118,Pelvic Floor (Left),-1,0,1,-1,1,-1,2,-1,0,-1,0,-1,0
+119,Pelvic Floor (Right),0,-1,-1,1,-1,1,2,0,-1,0,-1,0,-1
+120,Coccygeus (Left),-1,0,1,-1,1,-1,2,-1,0,-1,0,-1,0
+121,Coccygeus (Right),0,-1,-1,1,-1,1,2,0,-1,0,-1,0,-1
+122,Linea Alba,0,0,0,0,0,0,4,0,0,0,0,0,0
+123,Rectus Sheath (Left),-1,0,0,0,0,0,2,-2,0,-2,0,0,0
+124,Rectus Sheath (Right),0,-1,0,0,0,0,2,0,-2,0,-2,0,0
+125,Transversalis Fascia (Left),-1,0,0,0,0,0,1,-1,0,-1,0,0,0
+126,Transversalis Fascia (Right),0,-1,0,0,0,0,1,0,-1,0,-1,0,0
+127,Central Tendon of Diaphragm,0,0,0,0,0,0,2,0,0,0,0,0,0
+128,Iliocostalis Lumborum (Left),8,0,3,-3,4,-4,-5,0,0,0,0,2,0
+129,Iliocostalis Lumborum (Right),0,8,-3,3,-4,4,-5,0,0,0,0,0,2
+130,Longissimus Lumborum (Left),7,0,3,-3,3,-3,-4,0,0,0,0,2,0
+131,Longissimus Lumborum (Right),0,7,-3,3,-3,3,-4,0,0,0,0,0,2
+132,Multifidus (Lumbar) (Left),6,0,4,-4,3,-3,-3,0,0,0,0,2,0
+133,Multifidus (Lumbar) (Right),0,6,-4,4,-3,3,-3,0,0,0,0,0,2
+134,Quadratus Lumborum (Left),8,0,2,-2,8,-8,-2,0,0,0,0,3,0
+135,Quadratus Lumborum (Right),0,8,-2,2,-8,8,-2,0,0,0,0,0,3
+136,Psoas Major (Left),5,0,2,-2,2,-2,-8,0,0,0,0,0,0
+137,Psoas Major (Right),0,5,-2,2,-2,2,-8,0,0,0,0,0,0
+138,Psoas Minor (Left),3,0,1,-1,1,-1,-4,0,0,0,0,0,0
+139,Psoas Minor (Right),0,3,-1,1,-1,1,-4,0,0,0,0,0,0
+140,Thoracolumbar Fascia (Left),3,0,1,-1,1,-1,2,0,0,0,0,0,0
+141,Thoracolumbar Fascia (Right),0,3,-1,1,-1,1,2,0,0,0,0,0,0
+142,Lumbar Fascia (Left),2,0,0,0,0,0,1,0,0,0,0,0,0
+143,Lumbar Fascia (Right),0,2,0,0,0,0,1,0,0,0,0,0,0
+144,Iliolumbar Ligaments (Left),1,0,0,0,0,0,1,0,0,0,0,0,0
+145,Iliolumbar Ligaments (Right),0,1,0,0,0,0,1,0,0,0,0,0,0
